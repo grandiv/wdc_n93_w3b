@@ -2,6 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  @font-face {
+    font-family: 'thunder';
+    font-display: swap;
+    src: url('/fonts/Thunder/Thunder-LC.otf') format('opentype');
+  }
+
+  @font-face {
+    font-family: 'thunder-bold';
+    font-display: swap;
+    src: url('/fonts/Thunder/Thunder-BoldHC.otf') format('opentype');
+  }
+
+  @font-face {
+    font-family: 'thunder-light';
+    font-display: swap;
+    src: url('/fonts/Thunder/Thunder-LightHC.otf') format('opentype');
+  }
+
+  @font-face {
+    font-family: 'thunder-medium';
+    font-display: swap;
+    src: url('/fonts/Thunder/Thunder-MediumLC.otf') format('opentype');
+  }
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
