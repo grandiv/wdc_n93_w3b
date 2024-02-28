@@ -5,4 +5,14 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  theme: {
+    extend: {
+      fontFamily: {
+        thunder: ["thunder"],
+        thunderbold: ["thunder-bold"],
+        thunderlight: ["thunder-light"],
+        thundermedium: ["thunder-medium"],
+      }
+    }
+  }
 };
