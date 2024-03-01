@@ -2,35 +2,35 @@ export const DataKota = [
   {
     id: 1,
     kota: "YOGYAKARTA",
-    gambar: "/img/homepage/kotakabupaten/jogjaswiper.png",
+    gambar: "/img/homepage/kotakabupaten/jogjaswiper.svg",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     link: "/yogyakarta/",
   },
   {
     id: 2,
     kota: "BANTUL",
-    gambar: "/img/homepage/kotakabupaten/bantulswiper.png",
+    gambar: "/img/homepage/kotakabupaten/bantulswiper.svg",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     link: "/bantul/",
   },
   {
     id: 3,
     kota: "SLEMAN",
-    gambar: "/img/homepage/kotakabupaten/slemanswiper.png",
+    gambar: "/img/homepage/kotakabupaten/slemanswiper.svg",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     link: "/sleman/",
   },
   {
     id: 4,
     kota: "PROGO",
-    gambar: "/img/homepage/kotakabupaten/kpswiper.png",
+    gambar: "/img/homepage/kotakabupaten/kpswiper.svg",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     link: "/kulonprogo/",
   },
   {
     id: 5,
     kota: "KIDUL",
-    gambar: "/img/homepage/kotakabupaten/gkswiper.png",
+    gambar: "/img/homepage/kotakabupaten/gkswiper.svg",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     link: "/gunungkidul/",
   },
@@ -63,25 +63,26 @@ function KotaKabupaten() {
   };
 
   return (
-    <div className="relative flex items-center max-md:aspect-[360/700] max-md:flex-col md:aspect-[1280/720] md:w-full md:justify-center max-md:overflow-hidden">
-      <div className="">
+    <div className="relative flex items-center aspect-[360/700] flex-col lg:aspect-[1280/720] lg:items-start overflow-hidden">
+      <div className="vignette-desktop">
         <Image
           src="/img/homepage/kotakabupaten/bg-desktop.png"
           alt="Kota Kabupaten Background Desktop"
           fill
-          className="max-md:hidden"
         />
+        <div className="absolute inset-0 bg-black opacity-50 vignette-overlay"></div>
+      </div>
+      <div className="vignette lg:hidden">
         <Image
           src="/img/homepage/kotakabupaten/bg-mobile.png"
           alt="Kota Kabupaten Background Mobile"
           fill
-          className="md:hidden"
         />
       </div>
-      <div className="relative max-md:aspect-[360/328] max-md:mt-[31vw] max-md:mb-[2vw] md:mb-[15.5vw] md:h-[40vh] md:max-h-[1vh] md:w-[64vw]">
+      <div className="relative aspect-[360/328] lg:mt-[12vw] lg:ml-[4vw] lg:mb-[0vw] mt-[31vw] mb-[2vw]">
         {/* Header */}
-        <div className="-space-y-12 max-md:w-[75vw] max-md:h-[30vh] max-md:mr-[11vw] items-left md:justify-between">
-          <h2 className="max-md:ml-[3vw] text-left font-thunderbold text-[#EDD761] max-md:text-[20.5vw]">
+        <div className="w-[75vw] h-[30vh] mr-[11vw] items-left lg:w-[30vw] lg:h-[15vh]">
+          <h2 className="ml-[3vw] text-left font-thunderbold text-[#EDD761] text-[20.5vw] lg:text-[10vw]">
             {activeSlideId == 1
               ? "KOTA"
               : activeSlideId == 2 || activeSlideId == 3
@@ -92,26 +93,19 @@ function KotaKabupaten() {
                     ? "GUNUNG"
                     : ""}
           </h2>
-          <h2 className="max-md:ml-[3vw] text-left font-thunderbold text-[#EDD761] max-md:text-[20.5vw]">
+          <h2 className="ml-[3vw] -translate-y-[6vh] md:-translate-y-[14vh] text-left font-thunderbold text-[#EDD761] text-[20.5vw] sm:-translate-y-[12vh] 2xl:-translate-y-[13vh] lg:-translate-y-[9vh] lg:text-[10vw]">
             {DataKota.find((kotakab) => kotakab.id === activeSlideId)?.kota}
           </h2>
-          <div className="max-md:top-[5vh] flex relative max-md:left-[3vw] w-[34vw] h-[0.7vh]">
-            <Image
-              src="/img/homepage/kotakabupaten/gariskuning.svg"
-              alt="Garis Kuning"
-              fill
-              className="md:hidden"
-            />
-          </div>
-          <div className="flex relative max-md:top-[13.5vh] max-md:h-[9.5vh] max-md:w-[72vw] max-md:ml-[3vw]">
-            <p className="font-thunder text-[5.4vw]">
+          <div className="bottom-[7vh] md:bottom-[14vh] sm:bottom-[14vh] rounded-md bg-[#EDD761] lg:w-[10vw] 2xl:bottom-[19vh] lg:bottom-[12.5vh] flex relative left-[3vw] w-[30vw] h-[0.5vh]"></div>
+          <div className="flex relative bottom-[5vh] sm:bottom-[10vh] md:bottom-[10vh] h-[9.5vh] w-[72vw] ml-[3vw] lg:w-[27vw] 2xl:bottom-[15.5vh] xl:h-[12vh]">
+            <p className="font-thunder text-[5.4vw] lg:text-[1.6vw]">
               {DataKota.find((kotakab) => kotakab.id === activeSlideId)?.desc}
             </p>
           </div>
         </div>
       </div>
       <Swiper
-        className="mySwiper w-[100%] absolute left-[11vw] max-md:mb-[4vh]"
+        className="mySwiper w-[100%] lg:w-[50%] lg:h-[100%] lg:bottom-[13vh] 2xl:bottom-[21vh] lg:left-[28vw] absolute left-[11vw] mb-[4vh]"
         effect={"coverflow"}
         grabCursor={true}
         loop={true}
@@ -135,7 +129,7 @@ function KotaKabupaten() {
           return (
             <SwiperSlide key={kotakab}>
               {/* Mobile */}
-              <div className="md:hidden aspect-[3/4]">
+              <div className="aspect-[3/4]">
                 <Image
                   src={kotakab.gambar}
                   alt={kotakab.kota}
@@ -143,21 +137,22 @@ function KotaKabupaten() {
                   className="w-full h-full"
                 />
               </div>
-              {/* Desktop */}
             </SwiperSlide>
           );
         })}
       </Swiper>
-      <div className="max-md:relative max-md:bg-[white] max-md:w-[37vw] max-md:h-[5vh] max-md:right-[19vw] max-md:rounded-md max-md:items-center">
+      <div className="relative bg-[white] w-[37vw] md:h-[6vh] md:w-[30vw] md:right-[24vw] sm:h-[6vh] sm:w-[30vw] sm:right-[24vw] h-[5vh] lg:right-[0vw] lg:bottom-[13vh] lg:w-[11vw] lg:left-[7vw] lg:h-[4vh] right-[19vw] rounded-md items-center 2xl:h-[15vh]">
         <button
           onClick={handleViewMore}
-          className="max-md:w-[37vw] max-md:h-[5vh] max-md:relative max-md:flex font-thundermedium text-[black] max-md:items-center"
+          className="w-[37vw] 2xl:top-[0.8vh] 2xl:h-[5vh] lg:w-[11vw] lg:h-[4vh] sm:h-[6vh] sm:w-[30vw] md:h-[6vh] md:w-[30vw] h-[5vh] relative flex font-thundermedium lg:text-[1.5vw] text-[4.5vw] md:text-[3.5vw] text-[black] items-center"
         >
-          <span className="max-md:mr-5 max-md:relative max-md:left-[25%]">
-            VIEW MORE
-          </span>
-          <div className="max-md:relative max-md:left-[6vw] max-md:bottom-[0.2vh]">
-            <GoArrowRight />
+          <div className="2xl:top-[0vh] relative flex sm:left-[5vw] sm:top-[0.5vh] left-[25%] space-x-[5vw] lg:space-x-[2vw] lg:justify-center md:left-[25%] top-[0.1vh] lg:w-[11vw] lg:h-[4vh] lg:left-[0%] lg:top-[0vh] xl:h-[4.2vh] xl:mb-[0.5vh] 2xl:mb-[1.5vh]">
+            <div className="2xl:h-[3vh] relative md:items-center lg:left-[10%] lg:top-[1vh] lg:h-[2.3vh]">
+              VIEW MORE
+            </div>
+            <div className="2xl:top-[1vh] relative lg:h-[2.1vh] lg:top-[0.9vh] ml-[6vw] md:bottom-[0vh] mt-[0.3vh]">
+              <GoArrowRight />
+            </div>
           </div>
         </button>
       </div>
