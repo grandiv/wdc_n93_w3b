@@ -1,29 +1,91 @@
-import React from 'react';
-import { Parallax, ParallaxLayer } from '@react-spring/parallax';
+import {React, useRef} from 'react';
+import { motion, useScroll, useTransform } from 'framer-motion';
+import Image from 'next/image';
 
 function Hero() {
+  const ref = useRef(null);
+  const { scrollYProgress } = useScroll({
+    target: ref,
+    offset: ["start start", "end start"]
+  });
+  const backgroundY = useTransform(scrollYProgress, [0, 1], ["0%", "200%"]);
+  const background1Y = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
+  const background2Y = useTransform(scrollYProgress, [0, 1], ["0%", "65%"]);
+  const background3Y = useTransform(scrollYProgress, [0, 1], ["0%", "40%"]);
+  const textY = useTransform(scrollYProgress, [0, 1], ["0%", "200%"]);
   return (
-    <Parallax pages={2} style={{ top: '0', left: '0' }} class="animation">
-      <ParallaxLayer offset={0} speed={0.8}>
-        <div className="animation_layer parallax bg-[url('/img/homepage/hero/5.svg')]" id="5"></div>
-      </ParallaxLayer>
-      <ParallaxLayer offset={0} speed={0.5}>
-        <div className="animation_layer parallax bg-[url('/img/homepage/hero/4.svg')]" id="4"></div>
-      </ParallaxLayer>
-      <ParallaxLayer offset={0} speed={0.7}>
-        <div className="animation_layer parallax bg-[url('/img/homepage/hero/3.svg')]" id="3"></div>
-      </ParallaxLayer>
-      <ParallaxLayer offset={0} speed={0.3}>
-        <div className="animation_layer parallax bg-[url('/img/homepage/hero/2.svg')]" id="2"></div>
-      </ParallaxLayer>
-      <ParallaxLayer offset={0} speed={0.1}>
-        <div className="animation_layer parallax bg-[url('/img/homepage/hero/1.svg')]" id="1"></div>
-      </ParallaxLayer>
-      <ParallaxLayer offset={1} speed={0.1}>
-        <div className="animation_layer parallax bg-[1d1d21] w-[238px]" id="1"></div>
-      </ParallaxLayer>
-    </Parallax>
+    <div className="w-full relative h-screen overflow-hidden grid place-items-center">
+      <motion.h1 
+      style={{ y: textY }}
+      className=' 
+      font-thunderbold text-[15.104vw] text-[#EDD761] z-[8] absolute top-[5vw]'>YOGYAKARTA</motion.h1>
 
+      <div className='absolute bottom-[10vw] z-[3000] flex flex-col items-center justify-center'>
+        <div className='relative'>
+          <h1 
+          className=' 
+          font-thunder text-[1.563vw] text-[#EDD761] z-[3000]'>GULIR KE BAWAH</h1>
+          <Image
+            src="/img/homepage/hero/Polygon1.svg"
+            width={1}
+            height={1}
+            alt="Picture of the author"
+            className='w-[2vw] left-[2.8vw] absolute'></Image>
+        </div>
+      </div>
+
+      <motion.div
+        className='absolute inset-0 z-0'
+        style={{
+          backgroundSize: '100vw',
+          backgroundImage: 'url(img/homepage/hero/5.svg)',
+          backgroundPosition: 'bottom',
+          backgroundRepeat: 'no-repeat',
+          y: backgroundY,
+        }}
+      />
+      <motion.div
+        className='absolute z-[30] inset-0'
+        style={{
+          backgroundImage: 'url(img/homepage/hero/4.svg)',
+          backgroundSize: '100vw',
+          backgroundPosition: 'bottom',
+          backgroundRepeat: 'no-repeat',
+          y: background1Y,
+        }}
+      />
+      <motion.div
+        className='absolute z-[40] inset-0 bottom-0'
+        style={{
+          backgroundImage: 'url(img/homepage/hero/3.svg)',
+          backgroundSize: '100vw',
+          backgroundPosition: 'bottom',
+          backgroundRepeat: 'no-repeat',
+          y: background2Y,
+        }}
+      />
+      <motion.div
+        className='absolute z-[100] inset-0 bottom-0'
+        style={{
+          backgroundImage: 'url(img/homepage/hero/2.svg)',
+          backgroundSize: '100vw',
+          backgroundPosition: 'bottom',
+          backgroundRepeat: 'no-repeat',
+          y: background3Y,
+        }}
+      />
+      <div
+        className='absolute z-[1000] inset-0 bottom-0 bg-gradient-to-b from-transparent to-[#1d1d21] w-[99vw]'
+        style={{
+          backgroundImage: 'url(img/homepage/hero/1.svg)',
+          backgroundPosition: 'bottom',
+          backgroundRepeat: 'no-repeat',
+          backgroundSize: '100vw'
+        }}
+      >
+        <div className='absolute bottom-0 z-[2000] bg-gradient-to-b from-transparent to-[#1d1d21] w-full h-[5vw]'></div>
+      </div>
+    </div>
   )
 }
 

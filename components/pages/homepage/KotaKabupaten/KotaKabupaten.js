@@ -2,7 +2,7 @@ import React from 'react'
 
 function KotaKabupaten() {
   return (
-    <div>KotaKabupaten</div>
+    <div className='h-[50vw]'>KotaKabupaten</div>
   )
 }
 

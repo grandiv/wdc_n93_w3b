@@ -59,7 +59,7 @@ body {
 }
 
 .animation, .animation_layer {
-	height: 1000px;
+	height: 63.115vw;
 }
 
 .animation {
@@ -70,11 +70,16 @@ body {
 
 .animation_layer {
 	background-position: bottom center;
-	background-size: auto 1038px;
 	background-repeat: repeat-x;
+  background-size: 1038px cover;
 	width: 100%;
 	position: absolute;
 }
+
 .animation_layer.parallax {
 	position: fixed;
+}
+
+#background {
+  background-size: cover;
 }
