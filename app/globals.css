@@ -58,14 +58,9 @@ body {
   }
 }
 
-<<<<<<< HEAD
-.animation, .animation_layer {
-	height: 63.115vw;
-=======
 .animation,
 .animation_layer {
-  height: 1000px;
->>>>>>> 22a76f8ed31904d9b1b0b2cafecbf0eb27a09c98
+  height: 63.115vw;
 }
 
 .animation {
@@ -75,19 +70,11 @@ body {
 }
 
 .animation_layer {
-<<<<<<< HEAD
-	background-position: bottom center;
-	background-repeat: repeat-x;
-  background-size: 1038px cover;
-	width: 100%;
-	position: absolute;
-=======
   background-position: bottom center;
-  background-size: auto 1038px;
   background-repeat: repeat-x;
+  background-size: 1038px cover;
   width: 100%;
   position: absolute;
->>>>>>> 22a76f8ed31904d9b1b0b2cafecbf0eb27a09c98
 }
 
 .animation_layer.parallax {

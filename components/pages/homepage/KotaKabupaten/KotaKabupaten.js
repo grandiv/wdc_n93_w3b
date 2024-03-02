@@ -63,10 +63,6 @@ function KotaKabupaten() {
   };
 
   return (
-<<<<<<< HEAD
-    <div className='h-[50vw]'>KotaKabupaten</div>
-  )
-=======
     <div className="relative flex items-center aspect-[360/700] flex-col lg:aspect-[1280/720] lg:items-start overflow-hidden">
       <div className="vignette-desktop">
         <Image
@@ -162,7 +158,6 @@ function KotaKabupaten() {
       </div>
     </div>
   );
->>>>>>> 22a76f8ed31904d9b1b0b2cafecbf0eb27a09c98
 }
 
 export default KotaKabupaten;
