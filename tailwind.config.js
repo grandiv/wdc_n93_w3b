@@ -12,7 +12,8 @@ module.exports = {
         thunderbold: ["thunder-bold"],
         thunderlight: ["thunder-light"],
         thundermedium: ["thunder-medium"],
-      }
-    }
-  }
+        thunderboldLC: ["thunder-boldLC"],
+      },
+    },
+  },
 };
