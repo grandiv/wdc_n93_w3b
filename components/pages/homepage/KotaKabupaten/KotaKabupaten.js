@@ -93,10 +93,13 @@ function KotaKabupaten() {
                     ? "GUNUNG"
                     : ""}
           </h2>
+          {/* Nama Kota/Kabupaten */}
           <h2 className="ml-[3vw] -translate-y-[6vh] md:-translate-y-[14vh] text-left font-thunderbold text-[#EDD761] text-[20.5vw] sm:-translate-y-[12vh] 2xl:-translate-y-[13vh] lg:-translate-y-[9vh] lg:text-[10vw]">
             {DataKota.find((kotakab) => kotakab.id === activeSlideId)?.kota}
           </h2>
+          {/* Garis Kuning */}
           <div className="bottom-[7vh] md:bottom-[14vh] sm:bottom-[14vh] rounded-md bg-[#EDD761] lg:w-[10vw] 2xl:bottom-[19vh] lg:bottom-[12.5vh] flex relative left-[3vw] w-[30vw] h-[0.5vh]"></div>
+          {/* Deskripsi */}
           <div className="flex relative bottom-[5vh] sm:bottom-[10vh] md:bottom-[10vh] h-[9.5vh] w-[72vw] ml-[3vw] lg:w-[27vw] 2xl:bottom-[15.5vh] xl:h-[12vh]">
             <p className="font-thunder text-[5.4vw] lg:text-[1.6vw]">
               {DataKota.find((kotakab) => kotakab.id === activeSlideId)?.desc}
@@ -104,6 +107,7 @@ function KotaKabupaten() {
           </div>
         </div>
       </div>
+      {/* Swiper */}
       <Swiper
         className="mySwiper w-[100%] lg:w-[50%] lg:h-[100%] lg:bottom-[13vh] 2xl:bottom-[21vh] lg:left-[28vw] absolute left-[11vw] mb-[4vh]"
         effect={"coverflow"}
@@ -128,7 +132,6 @@ function KotaKabupaten() {
         {DataKota.map((kotakab) => {
           return (
             <SwiperSlide key={kotakab}>
-              {/* Mobile */}
               <div className="aspect-[3/4]">
                 <Image
                   src={kotakab.gambar}
@@ -141,6 +144,7 @@ function KotaKabupaten() {
           );
         })}
       </Swiper>
+      {/* Tombol View More */}
       <div className="relative bg-[white] w-[37vw] md:h-[6vh] md:w-[30vw] md:right-[24vw] sm:h-[6vh] sm:w-[30vw] sm:right-[24vw] h-[5vh] lg:right-[0vw] lg:bottom-[13vh] lg:w-[11vw] lg:left-[7vw] lg:h-[4vh] right-[19vw] rounded-md items-center 2xl:h-[15vh]">
         <button
           onClick={handleViewMore}
