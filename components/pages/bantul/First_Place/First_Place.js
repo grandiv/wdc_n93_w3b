@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
 import Image from "next/image";
 
@@ -5,6 +6,27 @@ export default function First_Place() {
   return (
     <div className="relative w-full bg-[#1d1d21] md:aspect-[1252/557] aspect-[360/1000] lg:aspect-[1920/1044]">
       <div className="relative h-[120vw] md:h-[50vw] lg:h-[47.948vw] w-full bg-[url('/img/yogyakarta/first_place/tugu-bgsm.svg')] md:bg-[url('/img/yogyakarta/first_place/tugu-bgmd.svg')] lg:bg-[url('/img/yogyakarta/first_place/tugu-bglg.svg')] rounded-t-[8.889vw] md:rounded-t-[4.167vw] lg:rounded-t-[3.75vw] bg-cover flex justify-center md:justify-end lg:bg-bottom">
+=======
+import { React, useEffect } from "react";
+import Image from "next/image";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { aosDuration, getDelay } from "../../../allPage/configs/aosConfig";
+
+export default function First_Place() {
+  useEffect(() => {
+    Aos.init();
+  }, []);
+
+  return (
+    <div className="relative w-full bg-[#1d1d21] md:aspect-[1252/557] aspect-[360/1000] lg:aspect-[1920/1044]">
+      <div
+        className="relative h-[120vw] md:h-[50vw] lg:h-[47.948vw] w-full bg-[url('/img/yogyakarta/first_place/tugu-bgsm.svg')] md:bg-[url('/img/yogyakarta/first_place/tugu-bgmd.svg')] lg:bg-[url('/img/yogyakarta/first_place/tugu-bglg.svg')] rounded-t-[8.889vw] md:rounded-t-[4.167vw] lg:rounded-t-[3.75vw] bg-cover flex justify-center md:justify-end lg:bg-bottom"
+        data-aos="fade-up"
+        data-aos-duration={aosDuration}
+        data-aos-delay={getDelay({ turn: 0 })}
+      >
+>>>>>>> d909f9831b0d7a46fc832ffb5b1c24fe292d1d88
         <div className="absolute bottom-0 z-[0] bg-gradient-to-b from-transparent to-[#1d1d21] w-full h-[5vw]"></div>
         <h1 className=" font-thunderboldLC text-[13.889vw] md:text-[6.51vw] text-[#7D7A64] leading-none mt-[10vw] md:mt-[5vw] md:mr-[5vw] lg:mt-[3vw] lg:mr-[3vw]">
           TUGU JOGJA

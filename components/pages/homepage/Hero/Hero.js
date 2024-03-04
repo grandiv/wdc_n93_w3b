@@ -18,12 +18,12 @@ function Hero() {
       <motion.h1
         style={{ y: textY }}
         className=" 
-      font-thunderbold text-[15.104vw] text-[#EDD761] z-[8] absolute top-[5vw]"
+      font-thunderbold text-[15.104vw] text-[#EDD761] z-[8] absolute top-[5vw] scroll-smooth"
       >
         YOGYAKARTA
       </motion.h1>
 
-      <div className="absolute bottom-[10vw] z-[3000] flex flex-col items-center justify-center">
+      <div className="absolute bottom-[10vw] z-[3000] flex flex-col items-center justify-center scroll-smooth">
         <div className="relative">
           <h1
             className=" 
