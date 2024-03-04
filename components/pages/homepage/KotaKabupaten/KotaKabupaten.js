@@ -3,35 +3,35 @@ export const DataKota = [
     id: 1,
     kota: "YOGYAKARTA",
     gambar: "/img/homepage/kotakabupaten/jogjaswiper.svg",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    desc: "Ibu kota dari Daerah Istimewa Yogyakarta yang mempertahankan konsep tradisisional dan budaya Jawa",
     link: "/yogyakarta/",
   },
   {
     id: 2,
     kota: "BANTUL",
     gambar: "/img/homepage/kotakabupaten/bantulswiper.svg",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    desc: "Bagian selatan Daerah Istimewa Yogyakarta yang memiliki banyak destinasi wisata alam seperti lembah, hutan, dan pantai",
     link: "/bantul/",
   },
   {
     id: 3,
     kota: "SLEMAN",
     gambar: "/img/homepage/kotakabupaten/slemanswiper.svg",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    desc: "Merupakan kabupaten yang terletak di ujung utara, terbentang dataran tinggi yang kaya akan view pegunungan dan tempat rekreasi",
     link: "/sleman/",
   },
   {
     id: 4,
     kota: "PROGO",
     gambar: "/img/homepage/kotakabupaten/kpswiper.svg",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    desc: "Berada di barat Yogyakarta yang memiliki banyak destinasi wisata air seperti air terjun dan waduk",
     link: "/kulonprogo/",
   },
   {
     id: 5,
     kota: "KIDUL",
     gambar: "/img/homepage/kotakabupaten/gkswiper.svg",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    desc: "Bagian paling timur Daerah Istimewa Yogyakarta yang memiliki wisata pantai terbanyak dan dataran tinggi yang indah",
     link: "/gunungkidul/",
   },
 ];
@@ -148,11 +148,11 @@ function KotaKabupaten() {
       <div className="relative bg-[white] w-[37vw] md:h-[6vh] md:w-[30vw] md:right-[24vw] sm:h-[6vh] sm:w-[30vw] sm:right-[24vw] h-[5vh] lg:right-[0vw] lg:bottom-[13vh] lg:w-[11vw] lg:left-[7vw] lg:h-[4vh] right-[19vw] rounded-md items-center 2xl:h-[15vh]">
         <button
           onClick={handleViewMore}
-          className="w-[37vw] 2xl:top-[0.8vh] 2xl:h-[5vh] lg:w-[11vw] lg:h-[4vh] sm:h-[6vh] sm:w-[30vw] md:h-[6vh] md:w-[30vw] h-[5vh] relative flex font-thundermedium lg:text-[1.5vw] text-[4.5vw] md:text-[3.5vw] text-[black] items-center"
+          className="w-[37vw] 2xl:top-[0.5vh] 2xl:h-[5vh] lg:w-[11vw] lg:h-[4vh] sm:h-[6vh] sm:w-[30vw] md:h-[6vh] md:w-[30vw] h-[5vh] relative flex font-thundermedium lg:text-[1.5vw] text-[4.5vw] md:text-[3.5vw] text-[black] items-center"
         >
           <div className="2xl:top-[0vh] relative flex sm:left-[5vw] sm:top-[0.5vh] left-[25%] space-x-[5vw] lg:space-x-[2vw] lg:justify-center md:left-[25%] top-[0.1vh] lg:w-[11vw] lg:h-[4vh] lg:left-[0%] lg:top-[0vh] xl:h-[4.2vh] xl:mb-[0.5vh] 2xl:mb-[1.5vh]">
             <div className="2xl:h-[3vh] relative md:items-center lg:left-[10%] lg:top-[1vh] lg:h-[2.3vh]">
-              VIEW MORE
+              LIHAT LEBIH
             </div>
             <div className="2xl:top-[1vh] relative lg:h-[2.1vh] lg:top-[0.9vh] ml-[6vw] md:bottom-[0vh] mt-[0.3vh]">
               <GoArrowRight />

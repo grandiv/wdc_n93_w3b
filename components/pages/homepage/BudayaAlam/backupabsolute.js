@@ -3,33 +3,15 @@ import Image from "next/image";
 
 function Alam() {
   return (
-    <div className="aspect-[360/1600]">
+    <div className="relative w-full bg-[red] aspect-[360/1600]">
       <div className="relative h-full w-screen flex items-start flex-col overflow-hidden">
-        {/* Text Box */}
-        <div className="w-full h-[40vh] relative flex flex-col">
-          <Image
-            src={"/img/homepage/budayaalam/text-box.svg"}
-            alt="Text Box"
-            fill
-            className=""
-          />
-          <div className="relative z-30 w-full h-[25vh] top-[6.5vh]">
-            {/* Border text box nya doang */}
-            <div className="border border-gray-900 rounded-2xl h-[27vh] w-[68vw] ml-[16vw] flex items-center justify-center text-[5.2vw] p-[3vw] font-thunder text-center">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
-            </div>
-          </div>
-        </div>
         {/* Background Platform */}
-        <div className="h-[120vh] w-[260vw] relative flex flex-col">
+        <div className="top-[5vh] h-[120vh] w-[260vw] absolute flex flex-col">
           <Image
             src="/img/homepage/budayaalam/bg-platform.svg"
             alt="Background Budaya"
             fill
-            className="translate-y-[50vh] -translate-x-[140vw] z-10"
+            className="translate-y-[50vh] -translate-x-[100vw] z-10"
           />
           <Image
             src="/img/homepage/budayaalam/bg-platform.svg"

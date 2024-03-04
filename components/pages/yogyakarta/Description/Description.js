@@ -25,13 +25,12 @@ export default function Description() {
         </div>
         <div className="m-[6.944vw] md:my-[3.125vw] md:mx-[10.547vw]  rounded-[6.667vw] lg:m-0 lg:rounded-[1.354vw] md:rounded-[3.646vw] border-white border-opacity-20 border-[0.278vw] lg:border-[0.052vw] bg-white bg-opacity-[0.01] flex justify-center items-center text-center ">
           <p className="font-thunder text-[5vw] m-[6.3vw] md:m-[3.385vw] my-[12vw] lg:mx-[4.427vw] lg:my-[1.979vw] md:text-[2.344vw] lg:text-[1.458vw]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            Selamat Datang di Yogyakarta!
+            <br />
+            Wisata yang ditawarkan di Kota Yogyakarta kental dengan
+            kebudayaannya. Mulai dari Tugu Yogyakarta, lalu ke arah selatan
+            menuju jalan Maliboro, hingga ke Kraton Yogyakarta. Menariknya
+            adalah posisi ketiga tempat ini memiliki makna filosofisnya sendiri.
           </p>
         </div>
         <div>
