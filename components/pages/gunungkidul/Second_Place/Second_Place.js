@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+import React from "react";
+
+export default function Second_Place() {
+  return (
+    <div className="relative w-full items-center justify-center flex md:aspect-[1252/557]"></div>
+=======
 import { React, useEffect } from "react";
 import Image from "next/image";
 import Aos from "aos";
@@ -104,5 +111,6 @@ export default function Second_Place() {
         </div>
       </div>
     </div>
+>>>>>>> d909f9831b0d7a46fc832ffb5b1c24fe292d1d88
   );
 }

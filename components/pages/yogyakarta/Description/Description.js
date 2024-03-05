@@ -46,6 +46,14 @@ export default function Description() {
           data-aos-delay={getDelay({ turn: 2 })}
         >
           <p className="font-thunder text-[5vw] m-[6.3vw] md:m-[3.385vw] my-[12vw] lg:mx-[4.427vw] lg:my-[1.979vw] md:text-[2.344vw] lg:text-[1.458vw]">
+<<<<<<< HEAD
+            Selamat Datang di Yogyakarta!
+            <br />
+            Wisata yang ditawarkan di Kota Yogyakarta kental dengan
+            kebudayaannya. Mulai dari Tugu Yogyakarta, lalu ke arah selatan
+            menuju jalan Maliboro, hingga ke Kraton Yogyakarta. Menariknya
+            adalah posisi ketiga tempat ini memiliki makna filosofisnya sendiri.
+=======
             Kota Yogyakarta, jantung dari Provinsi Daerah Istimewa Yogyakarta,
             mempesona dengan warisan budaya dan sejarah yang kaya. Dikenal
             dengan keindahan tempat-tempat budaya yang menjadi magnet bagi
@@ -53,6 +61,7 @@ export default function Description() {
             patah hati meninggalkan kesan yang tak terlupakan. Setiap sudutnya
             memancarkan pesona yang istimewa, membuat Yogyakarta menjadi kota
             yang sulit untuk dilupakan.
+>>>>>>> 285e7fc5f943f77636b2411c86c5c2ffbcdb9478
           </p>
         </div>
         <div

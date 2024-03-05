@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 import { React, useEffect } from "react";
 import Image from "next/image";
 import Aos from "aos";
@@ -78,3 +80,4 @@ export default function First_Place() {
     </div>
   );
 }
+>>>>>>> 285e7fc5f943f77636b2411c86c5c2ffbcdb9478
