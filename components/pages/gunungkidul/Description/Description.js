@@ -48,13 +48,14 @@ export default function Description() {
           data-aos-delay={getDelay({ turn: 2 })}
         >
           <p className="font-thunder text-[5vw] m-[6.3vw] md:m-[3.385vw] my-[12vw] lg:mx-[4.427vw] lg:my-[1.979vw] md:text-[2.344vw] lg:text-[1.458vw]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            Gunung Kidul, sebuah kabupaten di sebelah tenggara Provinsi Daerah
+            Istimewa Yogyakarta. Gunung Kidul menjadi tujuan utama bagi mereka
+            yang menginginkan pengalaman unik menikmati pantai dengan pasir
+            putih yang memukau. Meskipun memerlukan waktu perjalanan yang cukup
+            panjang, hal tersebut tidak menutup hasrat pengunjung untuk
+            menikmati keindahan alamnya tidak pernah padam, menjadikan Gunung
+            Kidul sebagai destinasi yang selalu menarik bagi pengunjung dari
+            berbagai penjuru.
           </p>
         </div>
         <div

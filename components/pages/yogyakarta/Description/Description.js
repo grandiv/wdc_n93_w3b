@@ -46,13 +46,13 @@ export default function Description() {
           data-aos-delay={getDelay({ turn: 2 })}
         >
           <p className="font-thunder text-[5vw] m-[6.3vw] md:m-[3.385vw] my-[12vw] lg:mx-[4.427vw] lg:my-[1.979vw] md:text-[2.344vw] lg:text-[1.458vw]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            Kota Yogyakarta, jantung dari Provinsi Daerah Istimewa Yogyakarta,
+            mempesona dengan warisan budaya dan sejarah yang kaya. Dikenal
+            dengan keindahan tempat-tempat budaya yang menjadi magnet bagi
+            wisatawan, kota ini sering disebut sebagai tempat di mana cinta dan
+            patah hati meninggalkan kesan yang tak terlupakan. Setiap sudutnya
+            memancarkan pesona yang istimewa, membuat Yogyakarta menjadi kota
+            yang sulit untuk dilupakan.
           </p>
         </div>
         <div

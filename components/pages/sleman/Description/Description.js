@@ -48,13 +48,15 @@ export default function Description() {
           data-aos-delay={getDelay({ turn: 2 })}
         >
           <p className="font-thunder text-[5vw] m-[6.3vw] md:m-[3.385vw] my-[12vw] lg:mx-[4.427vw] lg:my-[1.979vw] md:text-[2.344vw] lg:text-[1.458vw]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            Sleman, kabupaten yang terletak di sebelah selatan Provinsi Daerah
+            Istimewa Yogyakarta, mempersembahkan pengalaman budaya yang khas
+            dari Yogyakarta, sambil menawarkan suasana alam yang sejuk dengan
+            udara dingin dataran tingginya. Tempat ini menjadi pilihan tepat
+            untuk bersantai dan menyegarkan pikiran dari kepenatan sehari-hari.
+            Sleman juga merupakan rumah bagi Gunung Merapi, gunung berapi yang
+            megah dan menjadi bagian tak terpisahkan dari pemandangan
+            sehari-hari masyarakat Yogyakarta, dengan kekuasaannya yang tinggi
+            dan kemegahannya yang memukau.
           </p>
         </div>
         <div

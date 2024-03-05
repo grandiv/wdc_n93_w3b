@@ -84,7 +84,7 @@ export default function Next_Prev() {
       </div>
       <div>
         <Image
-          src="/img/yogyakarta/next_prev/ornamentlg.svg"
+          src="https://utfs.io/f/73863254-4564-4b5b-9114-923a5f664820-qnmyzz.svg"
           width={1}
           height={1}
           alt="Picture of the author"
