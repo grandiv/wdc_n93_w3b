@@ -18,44 +18,39 @@ function Hero() {
       <motion.h1
         style={{ y: textY }}
         className=" 
-      font-thunderbold text-[15.104vw] text-[#EDD761] z-[8] absolute top-[5vw] scroll-smooth"
-      >
+      font-thunderbold text-[76px] lg:text-[15.104vw] text-[#EDD761] z-[8] absolute lg:top-[5vw] top-52 scroll-smooth">
         YOGYAKARTA
       </motion.h1>
 
       <div className="absolute bottom-[10vw] z-[3000] flex flex-col items-center justify-center scroll-smooth">
-        <div className="relative">
+        <div className="flex flex-col justify-center items-center">
           <h1
             className=" 
-          font-thunder text-[1.563vw] text-[#EDD761] z-[3000]"
-          >
+          font-thunder text-2xl lg:text-[2.5vw] text-[#EDD761] z-[3000]">
             GULIR KE BAWAH
           </h1>
           <Image
             src={
               "https://utfs.io/f/daa63991-735f-4a24-98d5-b5586a57518b-acys0n.svg"
             }
-            width={1}
-            height={1}
+            width={3}
+            height={3}
             alt="Picture of the author"
-            className="w-[2vw] left-[2.8vw] absolute"
-          ></Image>
+            className="flex justify-center w-8 lg:w-[3vw]"></Image>
         </div>
       </div>
 
       <motion.div
-        className="absolute inset-0 z-0"
+        className="absolute inset-0 z-0 bg-cover lg:w-[99.1vw]"
         style={{
-          backgroundSize: "100vw",
           backgroundImage:
             "url(https://utfs.io/f/6a4008ed-ce6c-4c62-aa2f-99f616cac23b-1h.svg)",
           backgroundPosition: "bottom",
-          backgroundRepeat: "no-repeat",
           y: backgroundY,
         }}
       />
       <motion.div
-        className="absolute z-[30] inset-0"
+        className="absolute z-[30] inset-0 hidden lg:block"
         style={{
           backgroundImage:
             "url(https://utfs.io/f/9db6ef63-7b41-485b-846b-c2389ba8ef82-1g.svg)",
@@ -66,7 +61,7 @@ function Hero() {
         }}
       />
       <motion.div
-        className="absolute z-[40] inset-0 bottom-0"
+        className="absolute z-[40] inset-0 bottom-0 hidden lg:block"
         style={{
           backgroundImage:
             "url(https://utfs.io/f/804d987d-b28a-4be4-9764-aeaa1069cd7b-1f.svg)",
@@ -77,7 +72,7 @@ function Hero() {
         }}
       />
       <motion.div
-        className="absolute z-[100] inset-0 bottom-0"
+        className="absolute z-[100] inset-0 bottom-0 hidden lg:block"
         style={{
           backgroundImage:
             "url(https://utfs.io/f/f5d67b22-600c-4d18-bc86-dbf9999c7c56-1e.svg)",
@@ -88,15 +83,14 @@ function Hero() {
         }}
       />
       <div
-        className="absolute z-[1000] inset-0 bottom-0 bg-gradient-to-b from-transparent to-[#1d1d21] w-[99vw]"
+        className="absolute z-[1000] inset-0 bottom-0 bg-gradient-to-b from-transparent to-[#1d1d21] hidden lg:block"
         style={{
           backgroundImage:
             "url(https://utfs.io/f/56012633-070e-430a-be9a-161b6995bd53-1d.svg)",
           backgroundPosition: "bottom",
           backgroundRepeat: "no-repeat",
           backgroundSize: "100vw",
-        }}
-      >
+        }}>
         <div className="absolute bottom-0 z-[2000] bg-gradient-to-b from-transparent to-[#1d1d21] w-full h-[5vw]"></div>
       </div>
     </div>
