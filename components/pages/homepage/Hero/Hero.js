@@ -32,7 +32,9 @@ function Hero() {
             GULIR KE BAWAH
           </h1>
           <Image
-            src="/img/homepage/hero/Polygon1.svg"
+            src={
+              "https://utfs.io/f/daa63991-735f-4a24-98d5-b5586a57518b-acys0n.svg"
+            }
             width={1}
             height={1}
             alt="Picture of the author"
@@ -45,7 +47,8 @@ function Hero() {
         className="absolute inset-0 z-0"
         style={{
           backgroundSize: "100vw",
-          backgroundImage: "url(img/homepage/hero/5.svg)",
+          backgroundImage:
+            "url(https://utfs.io/f/6a4008ed-ce6c-4c62-aa2f-99f616cac23b-1h.svg)",
           backgroundPosition: "bottom",
           backgroundRepeat: "no-repeat",
           y: backgroundY,
@@ -54,7 +57,8 @@ function Hero() {
       <motion.div
         className="absolute z-[30] inset-0"
         style={{
-          backgroundImage: "url(img/homepage/hero/4.svg)",
+          backgroundImage:
+            "url(https://utfs.io/f/9db6ef63-7b41-485b-846b-c2389ba8ef82-1g.svg)",
           backgroundSize: "100vw",
           backgroundPosition: "bottom",
           backgroundRepeat: "no-repeat",
@@ -64,7 +68,8 @@ function Hero() {
       <motion.div
         className="absolute z-[40] inset-0 bottom-0"
         style={{
-          backgroundImage: "url(img/homepage/hero/3.svg)",
+          backgroundImage:
+            "url(https://utfs.io/f/804d987d-b28a-4be4-9764-aeaa1069cd7b-1f.svg)",
           backgroundSize: "100vw",
           backgroundPosition: "bottom",
           backgroundRepeat: "no-repeat",
@@ -74,7 +79,8 @@ function Hero() {
       <motion.div
         className="absolute z-[100] inset-0 bottom-0"
         style={{
-          backgroundImage: "url(img/homepage/hero/2.svg)",
+          backgroundImage:
+            "url(https://utfs.io/f/f5d67b22-600c-4d18-bc86-dbf9999c7c56-1e.svg)",
           backgroundSize: "100vw",
           backgroundPosition: "bottom",
           backgroundRepeat: "no-repeat",
@@ -84,7 +90,8 @@ function Hero() {
       <div
         className="absolute z-[1000] inset-0 bottom-0 bg-gradient-to-b from-transparent to-[#1d1d21] w-[99vw]"
         style={{
-          backgroundImage: "url(img/homepage/hero/1.svg)",
+          backgroundImage:
+            "url(https://utfs.io/f/56012633-070e-430a-be9a-161b6995bd53-1d.svg)",
           backgroundPosition: "bottom",
           backgroundRepeat: "no-repeat",
           backgroundSize: "100vw",

@@ -12,7 +12,7 @@ export default function First_Place() {
   return (
     <div className="relative w-full bg-[#1d1d21] md:aspect-[1252/557] aspect-[360/1000] lg:aspect-[1920/1044]">
       <div
-        className="relative h-[120vw] md:h-[50vw] lg:h-[47.948vw] w-full bg-[url('/img/yogyakarta/first_place/tugu-bgsm.svg')] md:bg-[url('/img/yogyakarta/first_place/tugu-bgmd.svg')] lg:bg-[url('/img/yogyakarta/first_place/tugu-bglg.svg')] rounded-t-[8.889vw] md:rounded-t-[4.167vw] lg:rounded-t-[3.75vw] bg-cover flex justify-center md:justify-end lg:bg-bottom"
+        className="relative h-[120vw] md:h-[50vw] lg:h-[47.948vw] w-full bg-[url('https://utfs.io/f/0be5a25f-b3f3-49d5-bed4-2d877b4d07ec-iwlp6r.svg')] md:bg-[url('https://utfs.io/f/516fb5e6-8fb3-43f1-969f-c405773add7c-iwlpc6.svg')] lg:bg-[url('https://utfs.io/f/a11162ce-e7dc-40ed-a920-881c49e751e8-iwlpcy.svg')] rounded-t-[8.889vw] md:rounded-t-[4.167vw] lg:rounded-t-[3.75vw] bg-cover flex justify-center md:justify-end lg:bg-bottom"
         data-aos="fade-up"
         data-aos-duration={aosDuration}
         data-aos-delay={getDelay({ turn: 0 })}
@@ -25,21 +25,27 @@ export default function First_Place() {
       <div className="relative w-full flex flex-col md:flex-row md:justify-center">
         <div className=" -translate-y-[16vw] flex flex-row justify-center items-center h-[50vw] md:h-[22.5vw] lg: z-[10000] lg:-translate-y-[24vw]">
           <Image
-            src="/img/yogyakarta/first_place/tugu-1.svg"
+            src={
+              "https://utfs.io/f/af88a118-1d71-42bf-b61a-d6684f1df37c-e9nral.svg"
+            }
             width={1}
             height={1}
             alt="Picture of the author"
             className="w-[32vw] md:w-[14vw] self-start"
           />
           <Image
-            src="/img/yogyakarta/first_place/tugu-2.svg"
+            src={
+              "https://utfs.io/f/50509a9f-7d10-4d41-bd09-fa3bf1176a74-e9nrak.svg"
+            }
             width={1}
             height={1}
             alt="Picture of the author"
             className="w-[32vw] md:w-[14vw] self-center"
           />
           <Image
-            src="/img/yogyakarta/first_place/tugu-3.svg"
+            src={
+              "https://utfs.io/f/cf491a74-cb15-4085-b57f-cd59df0dc2b5-e9nraj.svg"
+            }
             width={1}
             height={1}
             alt="Picture of the author"
@@ -57,7 +63,9 @@ export default function First_Place() {
                 LIHAT LEBIH
               </h2>
               <Image
-                src="/img/yogyakarta/first_place/arrow.svg"
+                src={
+                  "https://utfs.io/f/b6d6a3df-b70d-44e0-b4c2-c3a2e535e51a-1jf9c9.svg"
+                }
                 width={1}
                 height={1}
                 alt="Picture of the author"

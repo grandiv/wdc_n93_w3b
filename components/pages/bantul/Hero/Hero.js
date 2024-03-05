@@ -18,7 +18,7 @@ export default function Hero() {
 
   return (
     <div
-      className="relative w-full items-center justify-center aspect-[360/790] flex flex-col md:aspect-[768/1024] lg:aspect-[1920/1080] bg-[url('/img/yogyakarta/hero/background_kota.svg')] md:bg-[url('/img/yogyakarta/hero/background_kotalg.svg')] bg-cover lg:bg-cover lg:bg-[url('/img/yogyakarta/hero/background_kota2xl.svg')] bg-bottom max-2xl:h-screen"
+      className="relative w-full items-center justify-center aspect-[360/790] flex flex-col md:aspect-[768/1024] lg:aspect-[1920/1080] bg-[url('https://utfs.io/f/780dcdd7-a7a4-4bff-9045-8c0f59b29768-1t1cn.svg')] md:bg-[url('/https://utfs.io/f/fc6d75f3-af55-4b6d-88b8-ba27804ec29e-1t1co.svg')] bg-cover lg:bg-cover lg:bg-[url('https://utfs.io/f/46b389fa-5129-4472-9ec6-55a4576bbf0e-1t1cp.svg')] bg-bottom max-2xl:h-screen"
       data-aos="fade-up"
       data-aos-duration={aosDuration}
       data-aos-delay={getDelay({ turn: 0 })}
@@ -30,7 +30,7 @@ export default function Hero() {
         data-aos-duration={aosDuration}
         data-aos-delay={getDelay({ turn: 0 })}
       >
-        KOTA
+        BANTUL
       </h1>
       <div className="max-xl:mt-[20vw] xl:mt-[2vw] z-[3000] flex flex-col items-center justify-center">
         <div className="relative">
@@ -45,7 +45,9 @@ export default function Hero() {
           </h1>
           <button onClick={() => handleClick()}>
             <Image
-              src="/img/yogyakarta/hero/polygon.svg"
+              src={
+                "https://utfs.io/f/785543f3-f595-4273-a449-fb739b825b78-6ko81y.svg"
+              }
               width={1}
               height={1}
               alt="Picture of the author"

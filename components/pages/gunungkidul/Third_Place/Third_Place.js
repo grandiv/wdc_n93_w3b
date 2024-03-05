@@ -11,34 +11,40 @@ export default function Third_Place() {
   return (
     <div className="relative w-full bg-[#1d1d21] md:aspect-[1252/557] aspect-[360/1000] lg:aspect-[1920/1044]">
       <div
-        className="relative h-[120vw] md:h-[50vw] lg:h-[47.948vw] w-full bg-[url('/img/yogyakarta/third_place/kraton-bgsm.png')] md:bg-[url('/img/yogyakarta/third_place/kraton-bgmd.png')] lg:bg-[url('/img/yogyakarta/third_place/kraton-bglg.png')] rounded-t-[8.889vw] md:rounded-t-[4.167vw] lg:rounded-t-[3.75vw] bg-cover flex justify-center md:justify-end lg:bg-bottom"
+        className="relative h-[120vw] md:h-[50vw] lg:h-[47.948vw] w-full bg-[url('https://utfs.io/f/12b68ff2-e0e2-43f7-b458-7ed2d1b1d3e9-231t.svg')] md:bg-[url('https://utfs.io/f/550892f1-d3ab-40ba-887d-5887cb990c9c-231u.svg')] lg:bg-[url('https://utfs.io/f/5500e44b-39ed-4a9c-95cf-e5b9b4a53634-231v.svg')] rounded-t-[8.889vw] md:rounded-t-[4.167vw] lg:rounded-t-[3.75vw] bg-cover flex justify-center md:justify-end lg:bg-bottom"
         data-aos="fade-up"
         data-aos-duration={aosDuration}
         data-aos-delay={getDelay({ turn: 0 })}
       >
         <div className="absolute bottom-0 z-[0] bg-gradient-to-b from-transparent to-[#1d1d21] w-full h-[5vw]"></div>
         <h1 className=" font-thunderboldLC text-[13.889vw] md:text-[6.51vw] text-[#7D7A64] leading-none mt-[10vw] md:mt-[5vw] md:mr-[5vw] lg:mt-[3vw] lg:mr-[3vw]">
-          KRATON
+          BUKIT BINTANG
         </h1>
       </div>
       <div className="relative w-full flex flex-col md:flex-row md:justify-center">
         <div className=" -translate-y-[16vw] flex flex-row justify-center items-center h-[50vw] md:h-[22.5vw] lg: z-[10000] lg:-translate-y-[24vw]">
           <Image
-            src="/img/yogyakarta/third_place/kraton-1.svg"
+            src={
+              "https://utfs.io/f/aa072726-925c-46d9-937f-c3b6f3ca16ad-1sml8.svg"
+            }
             width={1}
             height={1}
             alt="Picture of the author"
             className="w-[32vw] md:w-[14vw] self-start"
           />
           <Image
-            src="/img/yogyakarta/third_place/kraton-2.svg"
+            src={
+              "https://utfs.io/f/2e07bb86-5814-4593-9f5a-c19873ba36e0-1smm3.svg"
+            }
             width={1}
             height={1}
             alt="Picture of the author"
             className="w-[32vw] md:w-[14vw] self-center"
           />
           <Image
-            src="/img/yogyakarta/third_place/kraton-3.svg"
+            src={
+              "https://utfs.io/f/ec27bd29-cb23-4c6d-b94d-38688dad2ea6-1smmy.svg"
+            }
             width={1}
             height={1}
             alt="Picture of the author"
@@ -56,7 +62,9 @@ export default function Third_Place() {
                 LIHAT LEBIH
               </h2>
               <Image
-                src="/img/yogyakarta/third_place/arrow.svg"
+                src={
+                  "https://utfs.io/f/8e4771a1-e181-4a5a-b6a2-c48cfb49e475-1jf9c9.svg"
+                }
                 width={1}
                 height={1}
                 alt="Picture of the author"

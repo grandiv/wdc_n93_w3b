@@ -12,34 +12,40 @@ export default function First_Place() {
   return (
     <div className="relative w-full bg-[#1d1d21] md:aspect-[1252/557] aspect-[360/1000] lg:aspect-[1920/1044]">
       <div
-        className="relative h-[120vw] md:h-[50vw] lg:h-[47.948vw] w-full bg-[url('/img/yogyakarta/first_place/tugu-bgsm.svg')] md:bg-[url('/img/yogyakarta/first_place/tugu-bgmd.svg')] lg:bg-[url('/img/yogyakarta/first_place/tugu-bglg.svg')] rounded-t-[8.889vw] md:rounded-t-[4.167vw] lg:rounded-t-[3.75vw] bg-cover flex justify-center md:justify-end lg:bg-bottom"
+        className="relative h-[120vw] md:h-[50vw] lg:h-[47.948vw] w-full bg-[url('https://utfs.io/f/a895b72c-629a-42a4-84c1-e3b9a350b326-1ygx3.svg')] md:bg-[url(https://utfs.io/f/2eb78a31-34c0-4980-ae4c-22f79f3ced09-1ygx4.svg')] lg:bg-[url('https://utfs.io/f/fa655948-3345-4e93-b28b-e985cc36240e-1ygx5.svg')] rounded-t-[8.889vw] md:rounded-t-[4.167vw] lg:rounded-t-[3.75vw] bg-cover flex justify-center md:justify-end lg:bg-bottom"
         data-aos="fade-up"
         data-aos-duration={aosDuration}
         data-aos-delay={getDelay({ turn: 0 })}
       >
         <div className="absolute bottom-0 z-[0] bg-gradient-to-b from-transparent to-[#1d1d21] w-full h-[5vw]"></div>
         <h1 className=" font-thunderboldLC text-[13.889vw] md:text-[6.51vw] text-[#7D7A64] leading-none mt-[10vw] md:mt-[5vw] md:mr-[5vw] lg:mt-[3vw] lg:mr-[3vw]">
-          TUGU JOGJA
+          KEDUNG PEDUT
         </h1>
       </div>
       <div className="relative w-full flex flex-col md:flex-row md:justify-center">
         <div className=" -translate-y-[16vw] flex flex-row justify-center items-center h-[50vw] md:h-[22.5vw] lg: z-[10000] lg:-translate-y-[24vw]">
           <Image
-            src="/img/yogyakarta/first_place/tugu-1.svg"
+            src={
+              "https://utfs.io/f/1b586708-0a9c-41a7-a02f-a82f7898f5a9-1ookkk.svg"
+            }
             width={1}
             height={1}
             alt="Picture of the author"
             className="w-[32vw] md:w-[14vw] self-start"
           />
           <Image
-            src="/img/yogyakarta/first_place/tugu-2.svg"
+            src={
+              "https://utfs.io/f/4d7cf26b-85d3-4280-88fa-08b7e96dfdb9-1ookjp.svg"
+            }
             width={1}
             height={1}
             alt="Picture of the author"
             className="w-[32vw] md:w-[14vw] self-center"
           />
           <Image
-            src="/img/yogyakarta/first_place/tugu-3.svg"
+            src={
+              "https://utfs.io/f/1b586708-0a9c-41a7-a02f-a82f7898f5a9-1ookkk.svg"
+            }
             width={1}
             height={1}
             alt="Picture of the author"
@@ -57,7 +63,9 @@ export default function First_Place() {
                 LIHAT LEBIH
               </h2>
               <Image
-                src="/img/yogyakarta/first_place/arrow.svg"
+                src={
+                  "https://utfs.io/f/8e4771a1-e181-4a5a-b6a2-c48cfb49e475-1jf9c9.svg"
+                }
                 width={1}
                 height={1}
                 alt="Picture of the author"

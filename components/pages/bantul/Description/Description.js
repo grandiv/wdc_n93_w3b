@@ -13,7 +13,9 @@ export default function Description() {
     <div className="relative w-full items-center justify-center flex flex-col bg-[#1d1d21] md:aspect-[768/643] aspect-[360/400] pt-[16vw] lg:pt-[8vw] lg:px-[11.979vw] lg:aspect-[1920/600]">
       <div>
         <Image
-          src="/img/yogyakarta/description/ornamentlg.svg"
+          src={
+            "https://utfs.io/f/73863254-4564-4b5b-9114-923a5f664820-qnmyzz.svg"
+          }
           width={1}
           height={1}
           alt="Picture of the author"
@@ -30,7 +32,9 @@ export default function Description() {
           data-aos-delay={getDelay({ turn: 1 })}
         >
           <Image
-            src="/img/yogyakarta/description/flower.svg"
+            src={
+              "https://utfs.io/f/255699a0-4ec1-4c95-80bf-3cfbf823d27d-l13fdx.svg"
+            }
             width={1}
             height={1}
             alt="Picture of the author"
@@ -59,7 +63,9 @@ export default function Description() {
           data-aos-delay={getDelay({ turn: 3 })}
         >
           <Image
-            src="/img/yogyakarta/description/flower.svg"
+            src={
+              "https://utfs.io/f/255699a0-4ec1-4c95-80bf-3cfbf823d27d-l13fdx.svg"
+            }
             width={1}
             height={1}
             alt="Picture of the author"

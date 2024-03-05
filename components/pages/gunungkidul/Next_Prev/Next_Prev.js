@@ -19,7 +19,9 @@ export default function Next_Prev() {
         aria-label="Previous"
       >
         <Image
-          src="/img/yogyakarta/next_prev/prev-sleman.svg"
+          src={
+            "https://utfs.io/f/a1553c02-e7a6-4ccd-945b-53534c2e03f0-59fxkp.svg"
+          }
           width={1}
           height={1}
           alt="Picture of the author"
@@ -33,7 +35,9 @@ export default function Next_Prev() {
         aria-label="Next"
       >
         <Image
-          src="/img/yogyakarta/next_prev/next-bantul.svg"
+          src={
+            "https://utfs.io/f/5c370c34-d494-475a-a370-7fe5e2dda8e9-hcfbl4.svg"
+          }
           width={1}
           height={1}
           alt="Picture of the author"
@@ -48,7 +52,9 @@ export default function Next_Prev() {
       >
         <div>
           <Image
-            src="/img/yogyakarta/next_prev/prev.svg"
+            src={
+              "https://utfs.io/f/93478748-9dc5-4830-8035-4709009a5218-21xkj.svg"
+            }
             width={1}
             height={1}
             alt="Picture of the author"
@@ -59,14 +65,14 @@ export default function Next_Prev() {
         </div>
         <div className=" font-thundermedium text-[5vw] md:text-[2.344vw] lg:text-[2.778vw] md:mr-[0.5vw] md:ml-[0.5vw] mr-[3vw] ml-[3vw] leading-none bg-gradient-to-b from-white to-[#1D1D21] inline-block text-transparent bg-clip-text w-[30vw] md:w-[16vw] lg:w-[18vw] text-center">
           {hoveredButton === "prev"
-            ? "SLEMAN"
+            ? "BANTUL"
             : hoveredButton === "next"
-              ? "BANTUL"
+              ? "KULONPROGO"
               : "TERUS MENJELAJAH"}
         </div>
         <div>
           <Image
-            src="/img/yogyakarta/next_prev/next.svg"
+            src="https://utfs.io/f/2865e5c2-4d25-42b3-85f5-3815914d7d02-20eer.svg"
             width={1}
             height={1}
             alt="Picture of the author"

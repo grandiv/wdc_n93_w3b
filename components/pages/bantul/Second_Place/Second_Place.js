@@ -11,34 +11,40 @@ export default function Second_Place() {
   return (
     <div className="relative w-full bg-[#1d1d21] md:aspect-[1252/557] aspect-[360/1000] lg:aspect-[1920/1044]">
       <div
-        className="relative h-[120vw] md:h-[50vw] lg:h-[47.948vw] w-full bg-[url('/img/yogyakarta/second_place/malioboro-bgsm.svg')] md:bg-[url('/img/yogyakarta/second_place/malioboro-bgmd.svg')] lg:bg-[url('/img/yogyakarta/second_place/malioboro-bglg.svg')] rounded-t-[8.889vw] md:rounded-t-[4.167vw] lg:rounded-t-[3.75vw] bg-cover flex justify-center md:justify-start lg:bg-bottom"
+        className="relative h-[120vw] md:h-[50vw] lg:h-[47.948vw] w-full bg-[url('https://utfs.io/f/60bf78b8-7a37-463d-a8f3-e6e650c20bba-21uvw.svg')] md:bg-[url('https://utfs.io/f/daaf3ed9-0501-4221-a3b2-b839971d1432-21uvx.svg')] lg:bg-[url('https://utfs.io/f/84b98367-2271-431f-8fc5-20396a2933d8-21uvy.svg')] rounded-t-[8.889vw] md:rounded-t-[4.167vw] lg:rounded-t-[3.75vw] bg-cover flex justify-center md:justify-start lg:bg-bottom"
         data-aos="fade-up"
         data-aos-duration={aosDuration}
         data-aos-delay={getDelay({ turn: 0 })}
       >
         <div className="absolute bottom-0 z-[0] bg-gradient-to-b from-transparent to-[#1d1d21] w-full h-[5vw]"></div>
         <h1 className=" font-thunderboldLC text-[13.889vw] md:text-[6.51vw] text-[#7D7A64] leading-none mt-[10vw] md:mt-[5vw] md:ml-[5vw] lg:mt-[3vw] lg:ml-[3vw]">
-          MALIOBORO
+          PINUS MANGUNAN
         </h1>
       </div>
       <div className="relative w-full flex flex-col md:flex-row md:justify-center">
         <div className=" -translate-y-[16vw] flex flex-row justify-center items-center h-[50vw] md:h-[22.5vw] lg: z-[10000] lg:-translate-y-[24vw] md:hidden">
           <Image
-            src="/img/yogyakarta/second_place/malioboro-1.svg"
+            src={
+              "https://utfs.io/f/8cd68db2-20fc-4d90-948f-46ef81866512-1rllht.svg"
+            }
             width={1}
             height={1}
             alt="Picture of the author"
             className="w-[32vw] md:w-[14vw] self-end"
           />
           <Image
-            src="/img/yogyakarta/second_place/malioboro-2.svg"
+            src={
+              "https://utfs.io/f/e2b6c35c-840c-4e27-93ec-04139d002eb9-1rllio.svg"
+            }
             width={1}
             height={1}
             alt="Picture of the author"
             className="w-[32vw] md:w-[14vw] self-center"
           />
           <Image
-            src="/img/yogyakarta/second_place/malioboro-3.svg"
+            src={
+              "https://utfs.io/f/356de057-c119-46ef-aee7-f22783c767e8-1rlljj.svg"
+            }
             width={1}
             height={1}
             alt="Picture of the author"
@@ -56,7 +62,9 @@ export default function Second_Place() {
                 LIHAT LEBIH
               </h2>
               <Image
-                src="/img/yogyakarta/second_place/arrow.svg"
+                src={
+                  "https://utfs.io/f/8e4771a1-e181-4a5a-b6a2-c48cfb49e475-1jf9c9.svg"
+                }
                 width={1}
                 height={1}
                 alt="Picture of the author"
@@ -67,21 +75,27 @@ export default function Second_Place() {
         </div>
         <div className=" -translate-y-[16vw] md:flex flex-row justify-center items-center h-[50vw] md:h-[22.5vw] z-[10000] lg:-translate-y-[23vw] hidden">
           <Image
-            src="/img/yogyakarta/second_place/malioboro-1.svg"
+            src={
+              "https://utfs.io/f/8cd68db2-20fc-4d90-948f-46ef81866512-1rllht.svg"
+            }
             width={1}
             height={1}
             alt="Picture of the author"
             className="w-[32vw] md:w-[14vw] self-end"
           />
           <Image
-            src="/img/yogyakarta/second_place/malioboro-2.svg"
+            src={
+              "https://utfs.io/f/e2b6c35c-840c-4e27-93ec-04139d002eb9-1rllio.svg"
+            }
             width={1}
             height={1}
             alt="Picture of the author"
             className="w-[32vw] md:w-[14vw] self-center"
           />
           <Image
-            src="/img/yogyakarta/second_place/malioboro-3.svg"
+            src={
+              "https://utfs.io/f/356de057-c119-46ef-aee7-f22783c767e8-1rlljj.svg"
+            }
             width={1}
             height={1}
             alt="Picture of the author"

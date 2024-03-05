@@ -18,7 +18,7 @@ export default function Hero() {
 
   return (
     <div
-      className="relative w-full items-center justify-center aspect-[360/790] flex flex-col md:aspect-[768/1024] lg:aspect-[1920/1080] bg-[url('/img/yogyakarta/hero/background_kota.svg')] md:bg-[url('/img/yogyakarta/hero/background_kotalg.svg')] bg-cover lg:bg-cover lg:bg-[url('/img/yogyakarta/hero/background_kota2xl.svg')] bg-bottom max-2xl:h-screen"
+      className="relative w-full items-center justify-center aspect-[360/790] flex flex-col md:aspect-[768/1024] lg:aspect-[1920/1080] bg-[url('https://utfs.io/f/888e3600-b5a1-4bc6-9f9c-c095f0dd94df-lpnarm.svg')] md:bg-[url('https://utfs.io/f/699666ce-1d5c-4bec-9226-dcfaec0f981f-hg5n0j.svg')] bg-cover lg:bg-cover lg:bg-[url('https://utfs.io/f/273eda10-1776-417b-88f4-4f07fe3d7025-rc0ftw.svg')] bg-bottom max-2xl:h-screen"
       data-aos="fade-up"
       data-aos-duration={aosDuration}
       data-aos-delay={getDelay({ turn: 0 })}
@@ -45,7 +45,9 @@ export default function Hero() {
           </h1>
           <button onClick={() => handleClick()}>
             <Image
-              src="/img/yogyakarta/hero/polygon.svg"
+              src={
+                "https://utfs.io/f/be3daf2b-110c-418e-9ac5-83088e4e8dbb-kyf2my.svg"
+              }
               width={1}
               height={1}
               alt="Picture of the author"
