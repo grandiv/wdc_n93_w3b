@@ -13,6 +13,7 @@ module.exports = {
         thunderlight: ["thunder-light"],
         thundermedium: ["thunder-medium"],
         thunderboldLC: ["thunder-boldLC"],
+        ariata: ["ariata"],
       },
     },
   },

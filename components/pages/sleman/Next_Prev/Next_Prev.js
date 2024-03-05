@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+import React from "react";
+
+export default function Next_Prev() {
+  return (
+    <div className="relative w-full items-center justify-center flex md:aspect-[1252/557]"></div>
+=======
 import { React, useState, useEffect } from "react";
 import Image from "next/image";
 import Aos from "aos";
@@ -93,5 +100,6 @@ export default function Next_Prev() {
         />
       </div>
     </div>
+>>>>>>> d909f9831b0d7a46fc832ffb5b1c24fe292d1d88
   );
 }
