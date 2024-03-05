@@ -7,7 +7,7 @@ import Second_Place from "@/components/pages/kulonprogo/Second_Place/Second_Plac
 import Third_Place from "@/components/pages/kulonprogo/Third_Place/Third_Place";
 import Next_Prev from "@/components/pages/kulonprogo/Next_Prev/Next_Prev";
 
-export default function KulonProgo() {
+export default function Kulonprogo() {
   return (
     <>
       <Hero />

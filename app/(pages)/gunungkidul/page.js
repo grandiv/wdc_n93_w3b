@@ -7,7 +7,7 @@ import Second_Place from "@/components/pages/gunungkidul/Second_Place/Second_Pla
 import Third_Place from "@/components/pages/gunungkidul/Third_Place/Third_Place";
 import Next_Prev from "@/components/pages/gunungkidul/Next_Prev/Next_Prev";
 
-export default function GunungKidul() {
+export default function Gunungkidul() {
   return (
     <>
       <Hero />

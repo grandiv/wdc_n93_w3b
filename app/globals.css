@@ -32,6 +32,12 @@
     font-display: swap;
     src: url("/fonts/Thunder/Thunder-BoldLC.otf") format("opentype");
   }
+
+  @font-face {
+    font-family: "ariata";
+    font-display: swap;
+    src: url("/fonts/Thunder/AriataStencilBold.otf") format("opentype");
+  }
 }
 
 :root {

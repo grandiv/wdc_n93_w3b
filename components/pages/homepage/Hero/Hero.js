@@ -14,7 +14,7 @@ function Hero() {
   const background3Y = useTransform(scrollYProgress, [0, 1], ["0%", "40%"]);
   const textY = useTransform(scrollYProgress, [0, 1], ["0%", "200%"]);
   return (
-    <div className="w-full relative h-screen overflow-hidden grid place-items-center hidden">
+    <div className="w-full relative h-screen overflow-hidden grid place-items-center">
       <motion.h1
         style={{ y: textY }}
         className=" 
