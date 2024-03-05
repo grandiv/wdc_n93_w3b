@@ -1,113 +1,75 @@
-<<<<<<< HEAD
-import React from "react";
-import Image from "next/image";
-
-export default function Description() {
-  return (
-    <div className="relative w-full items-center justify-center flex flex-col bg-[#1d1d21] md:aspect-[768/643] aspect-[360/590] py-[36.944vw] md:py-0 lg:px-[11.979vw] lg:aspect-[1920/600]">
-=======
 import { React, useEffect } from "react";
 import Image from "next/image";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { aosDuration, getDelay } from "../../../allPage/configs/aosConfig";
 
-export default function Description() {
+export default function First_Place() {
   useEffect(() => {
     Aos.init();
   }, []);
 
   return (
-    <div className="relative w-full items-center justify-center flex flex-col bg-[#1d1d21] md:aspect-[768/643] aspect-[360/400] pt-[16vw] lg:pt-[8vw] lg:px-[11.979vw] lg:aspect-[1920/600]">
->>>>>>> d909f9831b0d7a46fc832ffb5b1c24fe292d1d88
-      <div>
-        <Image
-          src={
-            "https://utfs.io/f/73863254-4564-4b5b-9114-923a5f664820-qnmyzz.svg"
-          }
-          width={1}
-          height={1}
-          alt="Picture of the author"
-          className="lg:w-[44.105vw] mb-[2vw]"
-<<<<<<< HEAD
-        ></Image>
-      </div>
-      <div className="relative items-center justify-center flex flex-col lg:flex-row">
-        <div>
-=======
-          data-aos="fade-up"
-          data-aos-duration={aosDuration}
-          data-aos-delay={getDelay({ turn: 0 })}
-        ></Image>
-      </div>
-      <div className="relative items-center justify-center flex flex-col lg:flex-row mb-[16vw]">
-        <div
-          data-aos="fade-up"
-          data-aos-duration={aosDuration}
-          data-aos-delay={getDelay({ turn: 1 })}
-        >
->>>>>>> d909f9831b0d7a46fc832ffb5b1c24fe292d1d88
-          <Image
-            src={
-              "https://utfs.io/f/255699a0-4ec1-4c95-80bf-3cfbf823d27d-l13fdx.svg"
-            }
-            width={1}
-            height={1}
-            alt="Picture of the author"
-            className="w-[17.944vw] md:w-[11.328vw] lg:w-[30vw] rotate-90 lg:rotate-0"
-          ></Image>
-        </div>
-<<<<<<< HEAD
-        <div className="m-[6.944vw] md:my-[3.125vw] md:mx-[10.547vw]  rounded-[6.667vw] lg:m-0 lg:rounded-[1.354vw] md:rounded-[3.646vw] border-white border-opacity-20 border-[0.278vw] lg:border-[0.052vw] bg-white bg-opacity-[0.01] flex justify-center items-center text-center ">
-=======
-        <div
-          className="m-[6.944vw] md:my-[3.125vw] md:mx-[10.547vw]  rounded-[6.667vw] lg:m-0 lg:rounded-[1.354vw] md:rounded-[3.646vw] border-white border-opacity-20 border-[0.278vw] lg:border-[0.052vw] bg-white bg-opacity-[0.01] flex justify-center items-center text-center"
-          data-aos="fade-up"
-          data-aos-duration={aosDuration}
-          data-aos-delay={getDelay({ turn: 2 })}
-        >
->>>>>>> d909f9831b0d7a46fc832ffb5b1c24fe292d1d88
-          <p className="font-thunder text-[5vw] m-[6.3vw] md:m-[3.385vw] my-[12vw] lg:mx-[4.427vw] lg:my-[1.979vw] md:text-[2.344vw] lg:text-[1.458vw]">
-            Bantul, kabupaten di sebelah selatan Provinsi Daerah Istimewa
-            Yogyakarta, memukau dengan keindahan pantai-pantainya yang terkenal.
-            Destinasi ini menjadi pilihan utama bagi wisatawan lokal maupun luar
-            kota yang ingin menyegarkan pikiran dan tubuh dari kepenatan
-            sehari-hari. Selain pantai, Bantul juga menawarkan wisata lembah,
-            sungai, dan hutan yang ideal untuk melepas penat dan menghilangkan
-            stres.
-          </p>
-        </div>
-<<<<<<< HEAD
-        <div>
-=======
-        <div
-          data-aos="fade-up"
-          data-aos-duration={aosDuration}
-          data-aos-delay={getDelay({ turn: 3 })}
-        >
->>>>>>> d909f9831b0d7a46fc832ffb5b1c24fe292d1d88
-          <Image
-            src={
-              "https://utfs.io/f/255699a0-4ec1-4c95-80bf-3cfbf823d27d-l13fdx.svg"
-            }
-            width={1}
-            height={1}
-            alt="Picture of the author"
-            className="w-[17.944vw]  md:w-[11.328vw] lg:w-[30vw] -rotate-90 lg:-rotate-180"
-          ></Image>
-        </div>
-      </div>
-<<<<<<< HEAD
-=======
+    <div className="relative w-full bg-[#1d1d21] md:aspect-[1252/557] aspect-[360/1000] lg:aspect-[1920/1044]">
       <div
-        className=" font-thunderbold text-[19.817vw] md:text-[9.289vw] lg:text-[17.587vw] my-[16vw] md:my-[5vw] lg:my-[7vw] leading-none tracking-widest bg-gradient-to-b from-white to-[#1D1D21] inline-block text-transparent bg-clip-text text-center"
+        className="relative h-[120vw] md:h-[50vw] lg:h-[47.948vw] w-full bg-[url('https://utfs.io/f/b7fb6d95-4391-4f42-9718-edd189f11212-21xvj.svg')] md:bg-[url('https://utfs.io/f/aaa4d436-25a6-4124-9446-a9932de7b065-21xvk.svg')] lg:bg-[url('https://utfs.io/f/c21b1741-24cb-434b-b821-e2c17ada1a79-21xvl.svg')] rounded-t-[8.889vw] md:rounded-t-[4.167vw] lg:rounded-t-[3.75vw] bg-cover flex justify-center md:justify-end lg:bg-bottom"
         data-aos="fade-up"
         data-aos-duration={aosDuration}
-        data-aos-delay={getDelay({ turn: 4 })}
+        data-aos-delay={getDelay({ turn: 0 })}
       >
-        SOROTAN
+        <div className="absolute bottom-0 z-[0] bg-gradient-to-b from-transparent to-[#1d1d21] w-full h-[5vw]"></div>
+        <h1 className=" font-thunderboldLC text-[13.889vw] md:text-[6.51vw] text-[#7D7A64] leading-none mt-[10vw] md:mt-[5vw] md:mr-[5vw] lg:mt-[3vw] lg:mr-[3vw]">
+          PARANGTRITIS
+        </h1>
       </div>
->>>>>>> d909f9831b0d7a46fc832ffb5b1c24fe292d1d88
+      <div className="relative w-full flex flex-col md:flex-row md:justify-center">
+        <div className=" -translate-y-[16vw] flex flex-row justify-center items-center h-[50vw] md:h-[22.5vw] lg: z-[10000] lg:-translate-y-[24vw]">
+          <Image
+            src="https://utfs.io/f/894a6bd6-c964-4a41-9c4d-47c441f6a52e-1ro66m.svg"
+            width={1}
+            height={1}
+            alt="Picture of the author"
+            className="w-[32vw] md:w-[14vw] self-start"
+          />
+          <Image
+            src="https://utfs.io/f/5299e6fe-5007-435f-9b95-755a3d7cfbfd-1ro67h.svg"
+            width={1}
+            height={1}
+            alt="Picture of the author"
+            className="w-[32vw] md:w-[14vw] self-center"
+          />
+          <Image
+            src="https://utfs.io/f/00d9ae74-8d6b-4af0-a461-04af1331477f-1ro68c.svg"
+            width={1}
+            height={1}
+            alt="Picture of the author"
+            className="w-[32vw] md:w-[14vw] self-end"
+          />
+        </div>
+        <div className="border-white border-[0.278vw] border-opacity-20 rounded-[6.667vw] flex flex-col justify-center items-center py-[9.722vw] md:p-[3.646vw] px-[6.667vw] m-[6.667vw] md:m-0 -mt-[13vw] md:-mt-[17 vw] bg-white bg-opacity-[1px] md:py-0 md:h-[23vw] md:w-[45vw] md:rounded-[2.083vw] md:ml-[1.9vw] md:backdrop-blur-lg md:-translate-y-[15vw] md:border-[0.13vw] lg:w-[40vw] lg:h-[12.396vw] lg:flex-row">
+          <p className=" font-thunder text-[5vw] text-center md:text-[2.344vw] lg:text-[1.458vw] lg:mr-[3vw]">
+            Pantai Selatan merupakan sebutan dari kumpulan pantai-pantai pada
+            pesisir selatan Provinsi D.I.Y. Keindahannya menjadi daya tarik yang
+            besar baik bagi pengunjung dalam kota maupun luar kota.
+          </p>
+          <button className="bg-[#F5F5F5] flex justify-center items-center rounded-[2.514vw] md:rounded-[1.178vw] px-[5.556vw] md:px-[2.604vw] lg:px-[1vw] lg:py-[1vw] pt-[4.167vw] md:pt-[1.7vw] pb-[4vw] md:pb-[1.5vw] lg:mt-0 mt-[4vw] md:mt-[2vw] lg:w-[25vw] lg:rounded-[0.729vw]">
+            <div className="flex items-start">
+              <h2 className="text-black font-thundermedium md:font-thunder text-[4.919vw] md:text-[2.306vw] leading-none mr-[4vw] md:mr-[2vw] lg:mr-[1vw] lg:text-[1.427vw]">
+                LIHAT LEBIH
+              </h2>
+              <Image
+                src={
+                  "https://utfs.io/f/8e4771a1-e181-4a5a-b6a2-c48cfb49e475-1jf9c9.svg"
+                }
+                width={1}
+                height={1}
+                alt="Picture of the author"
+                className="w-[4vw] md:w-[2vw] lg:w-[1.427vw]"
+              />
+            </div>
+          </button>
+        </div>
+      </div>
     </div>
   );
 }
