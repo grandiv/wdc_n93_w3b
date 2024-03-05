@@ -5,6 +5,14 @@ import "aos/dist/aos.css";
 import { aosDuration, getDelay } from "../../../allPage/configs/aosConfig";
 
 export default function Next_Prev() {
+  const handleClick = () => {
+    // Navigate to the "/sleman" route
+    window.location.href = "/yogyakarta";
+  };
+  const handleClick2 = () => {
+    // Navigate to the "/sleman" route
+    window.location.href = "/gunungkidul";
+  };
   useEffect(() => {
     Aos.init();
   }, []);
@@ -17,10 +25,11 @@ export default function Next_Prev() {
         onMouseEnter={() => setHoveredButton("prev")}
         onMouseLeave={() => setHoveredButton(null)}
         aria-label="Previous"
+        onClick={handleClick}
       >
         <Image
           src={
-            "https://utfs.io/f/32d5c270-dbe2-4400-aa9d-a28c8328e45d-bf6mdj.svg"
+            "https://utfs.io/f/9e97a35a-f4ff-49b6-a51e-60625ea412b6-59fwcf.svg"
           }
           width={1}
           height={1}
@@ -33,10 +42,11 @@ export default function Next_Prev() {
         onMouseEnter={() => setHoveredButton("next")}
         onMouseLeave={() => setHoveredButton(null)}
         aria-label="Next"
+        onClick={handleClick2}
       >
         <Image
           src={
-            "https://utfs.io/f/9e97a35a-f4ff-49b6-a51e-60625ea412b6-59fwcf.svg"
+            "https://utfs.io/f/32d5c270-dbe2-4400-aa9d-a28c8328e45d-bf6mdj.svg"
           }
           width={1}
           height={1}

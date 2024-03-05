@@ -5,6 +5,15 @@ import "aos/dist/aos.css";
 import { aosDuration, getDelay } from "../../../allPage/configs/aosConfig";
 
 export default function Next_Prev() {
+  const handleClick = () => {
+    // Navigate to the "/sleman" route
+    window.location.href = "/kulonprogo";
+  };
+  const handleClick2 = () => {
+    // Navigate to the "/sleman" route
+    window.location.href = "/yogyakarta";
+  };
+
   useEffect(() => {
     Aos.init();
   }, []);
@@ -17,6 +26,7 @@ export default function Next_Prev() {
         onMouseEnter={() => setHoveredButton("prev")}
         onMouseLeave={() => setHoveredButton(null)}
         aria-label="Previous"
+        onClick={handleClick}
       >
         <Image
           src={
@@ -33,6 +43,7 @@ export default function Next_Prev() {
         onMouseEnter={() => setHoveredButton("next")}
         onMouseLeave={() => setHoveredButton(null)}
         aria-label="Next"
+        onClick={handleClick2}
       >
         <Image
           src={

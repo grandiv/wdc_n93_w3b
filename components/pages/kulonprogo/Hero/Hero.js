@@ -18,7 +18,7 @@ export default function Hero() {
 
   return (
     <div
-      className="relative w-full items-center justify-center aspect-[360/790] flex flex-col md:aspect-[768/1024] lg:aspect-[1920/1080] bg-[url('https://utfs.io/f/e409907b-d3f8-4b3e-a279-b9eff2f0ea71-2a24.svg')] md:bg-[url('https://utfs.io/f/cd481397-99e0-4687-b08b-564130528a5d-2a25.svg')] bg-cover lg:bg-cover lg:bg-[url('https://utfs.io/f/e409907b-d3f8-4b3e-a279-b9eff2f0ea71-2a24.svg')] bg-bottom max-2xl:h-screen"
+      className="relative w-full items-center justify-center aspect-[360/790] flex flex-col md:aspect-[768/1024] lg:aspect-[1920/1080] bg-[url('https://utfs.io/f/e409907b-d3f8-4b3e-a279-b9eff2f0ea71-2a24.svg')] md:bg-[url('https://utfs.io/f/cd481397-99e0-4687-b08b-564130528a5d-2a25.svg')] bg-cover lg:bg-cover lg:bg-[url('https://utfs.io/f/ea744336-3c44-4b37-8b01-4d276837cdb3-2a26.svg')] bg-bottom max-2xl:h-screen"
       data-aos="fade-up"
       data-aos-duration={aosDuration}
       data-aos-delay={getDelay({ turn: 0 })}
@@ -30,7 +30,7 @@ export default function Hero() {
         data-aos-duration={aosDuration}
         data-aos-delay={getDelay({ turn: 0 })}
       >
-        KOTA
+        KULONPROGO
       </h1>
       <div className="max-xl:mt-[20vw] xl:mt-[2vw] z-[3000] flex flex-col items-center justify-center">
         <div className="relative">

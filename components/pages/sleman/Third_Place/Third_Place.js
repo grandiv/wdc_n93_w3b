@@ -1,10 +1,11 @@
-import { React, useEffect } from "react";
+import { React, useEffect, useState } from "react";
 import Image from "next/image";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { aosDuration, getDelay } from "../../../allPage/configs/aosConfig";
 
 export default function Third_Place() {
+  const [showModal, setShowModal] = useState(false);
   useEffect(() => {
     Aos.init();
   }, []);
@@ -57,7 +58,10 @@ export default function Third_Place() {
             secara jelas sambil bersantai dan menikmati keindahan alam
             sekitarnya.
           </p>
-          <button className="bg-[#F5F5F5] flex justify-center items-center rounded-[2.514vw] md:rounded-[1.178vw] px-[5.556vw] md:px-[2.604vw] lg:px-[1vw] lg:py-[1vw] pt-[4.167vw] md:pt-[1.7vw] pb-[4vw] md:pb-[1.5vw] lg:mt-0 mt-[4vw] md:mt-[2vw] lg:w-[25vw] lg:rounded-[0.729vw]">
+          <button
+            className="bg-[#F5F5F5] flex justify-center items-center rounded-[2.514vw] md:rounded-[1.178vw] px-[5.556vw] md:px-[2.604vw] lg:px-[1vw] lg:py-[1vw] pt-[4.167vw] md:pt-[1.7vw] pb-[4vw] md:pb-[1.5vw] lg:mt-0 mt-[4vw] md:mt-[2vw] lg:w-[25vw] lg:rounded-[0.729vw]"
+            onClick={() => setShowModal(true)}
+          >
             <div className="flex items-start">
               <h2 className="text-black font-thundermedium md:font-thunder text-[4.919vw] md:text-[2.306vw] leading-none mr-[4vw] md:mr-[2vw] lg:mr-[1vw] lg:text-[1.427vw]">
                 LIHAT LEBIH
@@ -75,6 +79,65 @@ export default function Third_Place() {
           </button>
         </div>
       </div>
+      <>
+        {showModal ? (
+          <>
+            <div className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-[999999999999999999] outline-none focus:outline-none backdrop-blur-sm">
+              <div className="relative w-auto my-6 mx-auto max-w-3xl">
+                {/*content*/}
+                <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-transparant outline-none focus:outline-none">
+                  {/*header*/}
+                  <div className="flex items-start justify-between p-5 rounded-t">
+                    <button
+                      type="button"
+                      class="text-grey-400 bg-transparent bg-red-600 hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
+                      data-modal-hide="default-modal"
+                      onClick={() => setShowModal(false)}
+                    >
+                      <svg
+                        class="w-3 h-3"
+                        aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 14 14"
+                      >
+                        <path
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
+                        />
+                      </svg>
+                      <span class="sr-only">Close modal</span>
+                    </button>
+                  </div>
+                  {/*body*/}
+                  <Image
+                    src={
+                      "https://utfs.io/f/b89012db-57ed-4721-84cc-3015667299bb-kmyg2o.svg"
+                    }
+                    width={1}
+                    height={1}
+                    alt="Picture of the author"
+                    className="w-[60vw] md:hidden"
+                  />
+                  <Image
+                    src={
+                      "https://utfs.io/f/360801a3-564c-4596-ba2b-47df0d151ca9-kmyg2p.svg"
+                    }
+                    width={1}
+                    height={1}
+                    alt="Picture of the author"
+                    className="w-[80vw] hidden md:block"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="opacity-25 fixed inset-0 z-40 bg-black"></div>
+          </>
+        ) : null}
+      </>
     </div>
   );
 }

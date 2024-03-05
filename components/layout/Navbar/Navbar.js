@@ -32,7 +32,7 @@ export function Navbar() {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   return (
-    <div className="flex items-center justify-between border-b border-gray-400 py-8 mr-[2vw] ml-[2vw]">
+    <div className="flex items-center justify-between border-b border-gray-400 py-8 mr-[2vw] ml-[2vw] z-[9999999999999999999999999]">
       <Link href="/">
         <Image
           src={
@@ -50,7 +50,7 @@ export function Navbar() {
             className="HAMBURGER-ICON space-y-2"
             onClick={() => setIsNavOpen((prev) => !prev)}
           >
-            <FaBars className="z-9999999 text-[#EDD761] text-[6vw] md:text-[4vw] lg:text-[2vw]" />
+            <FaBars className="z-[999999999999999999] text-[#EDD761] text-[6vw] md:text-[4vw] lg:text-[2vw]" />
           </div>
 
           <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
