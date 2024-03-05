@@ -9,7 +9,9 @@ function BudayaAlam() {
         <div className="absolute max-h-[190vw] md:-translate-x-[30vw] w-[400vw] flex flex-col lg:-translate-x-[11vw]">
           {/* Bg Platform */}
           <Image
-            src="/img/homepage/budayaalam/bg-platform.svg"
+            src={
+              "https://utfs.io/f/f2999344-d24e-4ace-898c-d433a0d6a06e-fapm9x.svg"
+            }
             alt="Background Budaya"
             width={100}
             height={100}
@@ -17,7 +19,9 @@ function BudayaAlam() {
           />
           {/* Tulisan Budaya */}
           <Image
-            src="/img/homepage/budayaalam/budaya.svg"
+            src={
+              "https://utfs.io/f/ae42543b-ec22-43f9-bfa6-57bf68f88009-msj8bs.svg"
+            }
             alt="Tulisan Budaya"
             width={100}
             height={100}
@@ -25,7 +29,9 @@ function BudayaAlam() {
           />
           {/* Gambar-gambar Budaya */}
           <Image
-            src="/img/homepage/budayaalam/FOTO2 BUDAYA.svg"
+            src={
+              "https://utfs.io/f/0013a19a-2204-4c4f-a2b7-f69c8078ee2a-mwlfwq.svg"
+            }
             alt="Foto Budaya"
             width={100}
             height={100}
@@ -39,35 +45,45 @@ function BudayaAlam() {
           </p>
           {/* Efek Cahaya */}
           <Image
-            src="/img/homepage/budayaalam/efekcahaya.svg"
+            src={
+              "https://utfs.io/f/84c2bbb7-f23a-4c18-be1d-ceb5f8b3ed09-gb3n52.svg"
+            }
             alt="Efek Cahaya"
             width={100}
             height={100}
             className="z-1 w-[50vw] md:w-[120vw] md:-translate-y-[285vw] md:-translate-x-[20vw] -translate-y-[310vw] lg:-translate-y-[250vw]"
           />
           <Image
-            src="/img/homepage/budayaalam/efekcahaya.svg"
+            src={
+              "https://utfs.io/f/84c2bbb7-f23a-4c18-be1d-ceb5f8b3ed09-gb3n52.svg"
+            }
             alt="Efek Cahaya"
             width={100}
             height={100}
             className="z-1 w-[50vw] md:-translate-y-[420vw] md:translate-x-[60vw] md:w-[75vw] -translate-x-[20vw] -translate-y-[370vw] lg:-translate-y-[380vw] lg:translate-x-[50vw]"
           />
           <Image
-            src="/img/homepage/budayaalam/efekcahaya.svg"
+            src={
+              "https://utfs.io/f/84c2bbb7-f23a-4c18-be1d-ceb5f8b3ed09-gb3n52.svg"
+            }
             alt="Efek Cahaya"
             width={100}
             height={100}
             className="z-1 w-[50vw] md:-translate-y-[540vw] md:translate-x-[60vw] md:w-[100vw] lg:-translate-y-[530vw] lg:-translate-x-[15vw] translate-x-[20vw] -translate-y-[465vw]"
           />
           <Image
-            src="/img/homepage/budayaalam/efekcahaya.svg"
+            src={
+              "https://utfs.io/f/84c2bbb7-f23a-4c18-be1d-ceb5f8b3ed09-gb3n52.svg"
+            }
             alt="Efek Cahaya"
             width={100}
             height={100}
             className="z-1 w-[50vw] lg:-translate-y-[400vw] lg:w-[200vw] md:hidden translate-x-[65vw] -translate-y-[515vw]"
           />
           <Image
-            src="/img/homepage/budayaalam/efekcahaya.svg"
+            src={
+              "https://utfs.io/f/84c2bbb7-f23a-4c18-be1d-ceb5f8b3ed09-gb3n52.svg"
+            }
             alt="Efek Cahaya"
             width={100}
             height={100}
@@ -78,7 +94,9 @@ function BudayaAlam() {
         <div className="absolute max-h-[190vw] md:-translate-x-[30vw] w-[400vw] flex flex-col lg:-translate-x-[20vw]">
           {/* Bg Platform */}
           <Image
-            src="/img/homepage/budayaalam/bg-platform.svg"
+            src={
+              "https://utfs.io/f/f2999344-d24e-4ace-898c-d433a0d6a06e-fapm9x.svg"
+            }
             alt="Background Alam"
             width={100}
             height={100}
@@ -86,7 +104,9 @@ function BudayaAlam() {
           />
           {/* Tulisan Alam */}
           <Image
-            src="/img/homepage/budayaalam/alam.svg"
+            src={
+              "https://utfs.io/f/54ece152-4a0a-4b58-8669-b19d59b32c06-1s87r.svg"
+            }
             alt="Tulisan Budaya"
             width={100}
             height={100}
@@ -94,7 +114,9 @@ function BudayaAlam() {
           />
           {/* Gambar-gambar Alam */}
           <Image
-            src="img/homepage/budayaalam/FOTO2 ALAM.svg"
+            src={
+              "https://utfs.io/f/6e714b60-c60f-4648-8fae-c85046bb19e7-lghq6h.svg"
+            }
             alt="Foto Alam"
             width={100}
             height={100}
@@ -108,28 +130,32 @@ function BudayaAlam() {
           </p>
           {/* Efek Cahaya */}
           <Image
-            src="/img/homepage/budayaalam/efekcahaya.svg"
+            src={
+              "https://utfs.io/f/84c2bbb7-f23a-4c18-be1d-ceb5f8b3ed09-gb3n52.svg"
+            }
             alt="Efek Cahaya"
             width={100}
             height={100}
             className="z-1 md:w-[100vw] md:-translate-y-[200vw] md:translate-x-[70vw] lg:-translate-y-[160vw] lg:translate-x-[50vw] w-[50vw] translate-x-[69vw] -translate-y-[210vw]"
           />
           <Image
-            src="/img/homepage/budayaalam/efekcahaya.svg"
+            src={
+              "https://utfs.io/f/84c2bbb7-f23a-4c18-be1d-ceb5f8b3ed09-gb3n52.svg"
+            }
             alt="Efek Cahaya"
             width={100}
             height={100}
             className="z-1 md:w-[100vw] md:-translate-y-[350vw] w-[50vw] translate-x-[69vw] lg:-translate-y-[310vw] -translate-y-[270vw]"
           />
           <Image
-            src="/img/homepage/budayaalam/efekcahaya.svg"
+            src="https://utfs.io/f/84c2bbb7-f23a-4c18-be1d-ceb5f8b3ed09-gb3n52.svg"
             alt="Efek Cahaya"
             width={100}
             height={100}
             className="z-1 w-[50vw] md:hidden translate-x-[50vw] -translate-y-[350vw]"
           />
           <Image
-            src="/img/homepage/budayaalam/efekcahaya.svg"
+            src="https://utfs.io/f/84c2bbb7-f23a-4c18-be1d-ceb5f8b3ed09-gb3n52.svg"
             alt="Efek Cahaya"
             width={100}
             height={100}

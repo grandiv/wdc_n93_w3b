@@ -35,7 +35,9 @@ export function Navbar() {
     <div className="flex items-center justify-between border-b border-gray-400 py-8 mr-[2vw] ml-[2vw]">
       <Link href="/">
         <Image
-          src="/img/navbar/wonderfulkuning.svg"
+          src={
+            "https://utfs.io/f/90d416f5-f6a9-4e80-b30b-62edc48f653d-nea2yo.svg"
+          }
           alt="logo"
           width={100}
           height={100}
