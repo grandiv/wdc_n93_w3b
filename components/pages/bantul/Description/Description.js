@@ -22,7 +22,9 @@ export default function Description() {
 >>>>>>> d909f9831b0d7a46fc832ffb5b1c24fe292d1d88
       <div>
         <Image
-          src="/img/yogyakarta/description/ornamentlg.svg"
+          src={
+            "https://utfs.io/f/73863254-4564-4b5b-9114-923a5f664820-qnmyzz.svg"
+          }
           width={1}
           height={1}
           alt="Picture of the author"
@@ -46,7 +48,9 @@ export default function Description() {
         >
 >>>>>>> d909f9831b0d7a46fc832ffb5b1c24fe292d1d88
           <Image
-            src="/img/yogyakarta/description/flower.svg"
+            src={
+              "https://utfs.io/f/255699a0-4ec1-4c95-80bf-3cfbf823d27d-l13fdx.svg"
+            }
             width={1}
             height={1}
             alt="Picture of the author"
@@ -64,13 +68,13 @@ export default function Description() {
         >
 >>>>>>> d909f9831b0d7a46fc832ffb5b1c24fe292d1d88
           <p className="font-thunder text-[5vw] m-[6.3vw] md:m-[3.385vw] my-[12vw] lg:mx-[4.427vw] lg:my-[1.979vw] md:text-[2.344vw] lg:text-[1.458vw]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            Bantul, kabupaten di sebelah selatan Provinsi Daerah Istimewa
+            Yogyakarta, memukau dengan keindahan pantai-pantainya yang terkenal.
+            Destinasi ini menjadi pilihan utama bagi wisatawan lokal maupun luar
+            kota yang ingin menyegarkan pikiran dan tubuh dari kepenatan
+            sehari-hari. Selain pantai, Bantul juga menawarkan wisata lembah,
+            sungai, dan hutan yang ideal untuk melepas penat dan menghilangkan
+            stres.
           </p>
         </div>
 <<<<<<< HEAD
@@ -83,7 +87,9 @@ export default function Description() {
         >
 >>>>>>> d909f9831b0d7a46fc832ffb5b1c24fe292d1d88
           <Image
-            src="/img/yogyakarta/description/flower.svg"
+            src={
+              "https://utfs.io/f/255699a0-4ec1-4c95-80bf-3cfbf823d27d-l13fdx.svg"
+            }
             width={1}
             height={1}
             alt="Picture of the author"

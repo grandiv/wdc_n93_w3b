@@ -19,7 +19,9 @@ export default function Next_Prev() {
         aria-label="Previous"
       >
         <Image
-          src="/img/yogyakarta/next_prev/prev-sleman.svg"
+          src={
+            "https://utfs.io/f/003fe834-21b3-4b96-919a-d8f19c050336-rus808.svg"
+          }
           width={1}
           height={1}
           alt="Picture of the author"
@@ -33,7 +35,9 @@ export default function Next_Prev() {
         aria-label="Next"
       >
         <Image
-          src="/img/yogyakarta/next_prev/next-bantul.svg"
+          src={
+            "https://utfs.io/f/6bbb9cb1-b4db-44cc-a3ec-70ddcce9f9df-71qslm.svg"
+          }
           width={1}
           height={1}
           alt="Picture of the author"
@@ -48,7 +52,7 @@ export default function Next_Prev() {
       >
         <div>
           <Image
-            src="/img/yogyakarta/next_prev/prev.svg"
+            src="https://utfs.io/f/93478748-9dc5-4830-8035-4709009a5218-21xkj.svg"
             width={1}
             height={1}
             alt="Picture of the author"
@@ -66,7 +70,7 @@ export default function Next_Prev() {
         </div>
         <div>
           <Image
-            src="/img/yogyakarta/next_prev/next.svg"
+            src="https://utfs.io/f/2865e5c2-4d25-42b3-85f5-3815914d7d02-20eer.svg"
             width={1}
             height={1}
             alt="Picture of the author"
@@ -78,7 +82,7 @@ export default function Next_Prev() {
       </div>
       <div>
         <Image
-          src="/img/yogyakarta/next_prev/ornamentlg.svg"
+          src="https://utfs.io/f/73863254-4564-4b5b-9114-923a5f664820-qnmyzz.svg"
           width={1}
           height={1}
           alt="Picture of the author"

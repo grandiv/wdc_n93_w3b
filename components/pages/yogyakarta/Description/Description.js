@@ -13,7 +13,9 @@ export default function Description() {
     <div className="relative w-full items-center justify-center flex flex-col bg-[#1d1d21] md:aspect-[768/643] aspect-[360/400] pt-[16vw] lg:pt-[8vw] lg:px-[11.979vw] lg:aspect-[1920/600]">
       <div>
         <Image
-          src="/img/yogyakarta/description/ornamentlg.svg"
+          src={
+            "https://utfs.io/f/84c7e6e3-7a3b-45e3-af46-47688b9b4647-qnmyzz.svg"
+          }
           width={1}
           height={1}
           alt="Picture of the author"
@@ -30,7 +32,7 @@ export default function Description() {
           data-aos-delay={getDelay({ turn: 1 })}
         >
           <Image
-            src="/img/yogyakarta/description/flower.svg"
+            src="https://utfs.io/f/255699a0-4ec1-4c95-80bf-3cfbf823d27d-l13fdx.svg"
             width={1}
             height={1}
             alt="Picture of the author"
@@ -44,12 +46,22 @@ export default function Description() {
           data-aos-delay={getDelay({ turn: 2 })}
         >
           <p className="font-thunder text-[5vw] m-[6.3vw] md:m-[3.385vw] my-[12vw] lg:mx-[4.427vw] lg:my-[1.979vw] md:text-[2.344vw] lg:text-[1.458vw]">
+<<<<<<< HEAD
             Selamat Datang di Yogyakarta!
             <br />
             Wisata yang ditawarkan di Kota Yogyakarta kental dengan
             kebudayaannya. Mulai dari Tugu Yogyakarta, lalu ke arah selatan
             menuju jalan Maliboro, hingga ke Kraton Yogyakarta. Menariknya
             adalah posisi ketiga tempat ini memiliki makna filosofisnya sendiri.
+=======
+            Kota Yogyakarta, jantung dari Provinsi Daerah Istimewa Yogyakarta,
+            mempesona dengan warisan budaya dan sejarah yang kaya. Dikenal
+            dengan keindahan tempat-tempat budaya yang menjadi magnet bagi
+            wisatawan, kota ini sering disebut sebagai tempat di mana cinta dan
+            patah hati meninggalkan kesan yang tak terlupakan. Setiap sudutnya
+            memancarkan pesona yang istimewa, membuat Yogyakarta menjadi kota
+            yang sulit untuk dilupakan.
+>>>>>>> 285e7fc5f943f77636b2411c86c5c2ffbcdb9478
           </p>
         </div>
         <div
@@ -58,7 +70,7 @@ export default function Description() {
           data-aos-delay={getDelay({ turn: 3 })}
         >
           <Image
-            src="/img/yogyakarta/description/flower.svg"
+            src="https://utfs.io/f/255699a0-4ec1-4c95-80bf-3cfbf823d27d-l13fdx.svg"
             width={1}
             height={1}
             alt="Picture of the author"
