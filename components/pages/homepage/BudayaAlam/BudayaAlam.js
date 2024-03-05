@@ -15,7 +15,7 @@ function BudayaAlam() {
             alt="Background Budaya"
             width={100}
             height={100}
-            className="z-10 mt-[20vw] w-[200vw] -translate-x-[80vw] md:-translate-x-[30vw] md:w-[150vw] lg:w-[120vw]"
+            className="z-10 mt-[20vw] w-[200vw] -translate-y-[10.1vw] -translate-x-[80vw] md:-translate-x-[30vw] md:w-[150vw] lg:w-[120vw]"
           />
           {/* Tulisan Budaya */}
           <Image
@@ -25,7 +25,7 @@ function BudayaAlam() {
             alt="Tulisan Budaya"
             width={100}
             height={100}
-            className="z-20 w-[60vw] md:translate-x-[30vw] md:w-[40vw] md:-translate-y-[120vw] lg:-translate-y-[97vw] lg:w-[30vw] -translate-y-[170vw] lg:translate-x-[20vw]"
+            className="z-20 w-[60vw] md:translate-x-[30vw] md:w-[40vw] md:-translate-y-[123vw] lg:-translate-y-[102vw] lg:w-[30vw] -translate-y-[170vw] lg:translate-x-[20vw]"
           />
           {/* Gambar-gambar Budaya */}
           <Image
@@ -35,10 +35,10 @@ function BudayaAlam() {
             alt="Foto Budaya"
             width={100}
             height={100}
-            className="z-20 w-[90vw] md:w-[70vw] translate-x-[15vw] md:rotate-2 md:translate-x-[35vw] md:-translate-y-[140vw] -translate-y-[200vw] lg:w-[60vw] lg:-translate-y-[115vw] lg:translate-x-[20vw] lg:rotate-2"
+            className="z-20 w-[90vw] md:w-[70vw] translate-x-[15vw] md:rotate-2 md:translate-x-[35vw] md:-translate-y-[147vw] -translate-y-[200vw] lg:w-[60vw] lg:-translate-y-[120vw] lg:translate-x-[20vw] lg:rotate-2"
           />
           {/* Deskripsi */}
-          <p className="text-[2.2vw] translate-x-[50vw] -translate-y-[279vw] text-center skew-y-[30deg] z-30 w-[50vw] md:-translate-y-[205vw] md:translate-x-[70vw] lg:-translate-y-[162vw] lg:translate-x-[45vw] lg:text-[1.6vw]">
+          <p className="text-[1.7vw] translate-x-[50vw] -translate-y-[270vw] text-center skew-y-[30deg] z-30 w-[50vw] md:-translate-y-[200vw] md:translate-x-[70vw] lg:-translate-y-[163vw] lg:translate-x-[45vw] lg:text-[1.6vw]">
             Temukan kekayaan warisan budaya yang memikat di Daerah Istimewa
             Yogyakarta. Nikmati keindahan dan kearifan lokal yang tak ternilai
             dalam setiap langkah Anda di kota ini.
@@ -100,7 +100,7 @@ function BudayaAlam() {
             alt="Background Alam"
             width={100}
             height={100}
-            className="z-10 mt-[30vw] w-[200vw] md:translate-y-[70vw] translate-y-[100vw] -translate-x-[90vw] md:w-[150vw] md:-translate-x-[20vw] lg:w-[120vw] lg:translate-y-[50vw]"
+            className="z-10 mt-[30vw] w-[200vw] md:translate-y-[62vw] translate-y-[85vw] -translate-x-[90vw] md:w-[150vw] md:-translate-x-[20vw] lg:w-[120vw] lg:translate-y-[42vw]"
           />
           {/* Tulisan Alam */}
           <Image
@@ -110,7 +110,7 @@ function BudayaAlam() {
             alt="Tulisan Budaya"
             width={100}
             height={100}
-            className="z-20 -translate-y-[69vw] md:-translate-y-[55vw] md:translate-x-[70vw] md:w-[40vw] lg:w-[30vw] lg:translate-x-[55vw] lg:-translate-y-[50vw] w-[60vw] translate-x-[30vw]"
+            className="z-20 -translate-y-[72vw] md:-translate-y-[55vw] md:translate-x-[70vw] md:w-[40vw] lg:w-[30vw] lg:translate-x-[52vw] lg:-translate-y-[50vw] w-[60vw] translate-x-[30vw]"
           />
           {/* Gambar-gambar Alam */}
           <Image
@@ -120,10 +120,10 @@ function BudayaAlam() {
             alt="Foto Alam"
             width={100}
             height={100}
-            className="z-20 w-[90vw] md:rotate-2 md:w-[70vw] md:translate-x-[28vw] md:-translate-y-[77vw] -translate-y-[100vw] -translate-x-[20vw] lg:w-[60vw] lg:-translate-y-[68vw] lg:translate-x-[20vw]"
+            className="z-20 w-[90vw] md:rotate-2 md:w-[70vw] md:translate-x-[28vw] md:-translate-y-[77vw] -translate-y-[105vw] rotate-2 -translate-x-[20vw] lg:w-[60vw] lg:-translate-y-[69vw] lg:translate-x-[15vw]"
           />
           {/* Deskripsi */}
-          <p className="text-[2.2vw] translate-x-[50vw] -translate-y-[180vw] text-center skew-y-[30deg] z-30 w-[50vw] md:translate-x-[80vw] md:-translate-y-[141vw] lg:-translate-y-[113vw] lg:translate-x-[60vw] lg:text-[1.6vw]">
+          <p className="text-[1.7vw] translate-x-[50vw] -translate-y-[175vw] text-center skew-y-[30deg] z-30 w-[50vw] md:translate-x-[80vw] md:-translate-y-[133vw] lg:-translate-y-[115vw] lg:translate-x-[58vw] lg:text-[1.6vw]">
             Telusuri kecantikan alam yang memukau, dari pantai berpasir putih
             hingga lereng gunung yang hijau. Rasakan kedamaian alam dan kagumi
             keindahan alam yang menakjubkan yang menjadi ciri khas Yogyakarta.
