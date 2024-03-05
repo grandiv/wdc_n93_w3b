@@ -32,7 +32,7 @@ export function Navbar() {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   return (
-    <div className="flex items-center justify-between border-b border-gray-400 py-8 mr-[2vw] ml-[2vw] z-[9999999999999999999999999]">
+    <div className="flex items-center justify-between border-b border-gray-400 py-8 mr-[2vw] ml-[2vw] z-[1009]">
       <Link href="/">
         <Image
           src={
@@ -45,7 +45,7 @@ export function Navbar() {
         />
       </Link>
       <nav>
-        <section className="MOBILE-MENU flex">
+        <section className="MOBILE-MENU flex inset-0">
           <div
             className="HAMBURGER-ICON space-y-2"
             onClick={() => setIsNavOpen((prev) => !prev)}
@@ -71,16 +71,20 @@ export function Navbar() {
                 <line x1="6" y1="6" x2="18" y2="18" />
               </svg>
             </div>
-            <div className="flex flex-col text-[white] space-y-[2vw] z-99999999">
-              <div className="text-[10vw] border-gray-400 uppercase">
+            <div className="flex flex-col lg:flex-bar text-[white] space-y-[2vw] md:space-y-[1vw] z-[9999999999999999] h-[500vh]">
+              <div className="mt-[15vw] md:mt-[5vw] text-[6vw] md:text-[6vw] font-thunder border-gray-400 uppercase">
                 <Link href="/">Beranda</Link>
               </div>
-              <div className="text-[10vw] border-gray-400 my-8 uppercase">
+              <div className="text-[15vw] md:text-[8vw] min-lg:text-[20px] font-thunderbold border-gray-400 my-8 uppercase">
                 Kabupaten
               </div>
-              <div className="border-gray-400 space-y-[2vw] uppercase">
+              <div className="border-gray-400 space-y-[2vw] lg:space-x-[1vw] lg:space-y-0 uppercase flex flex-col lg:flex-row">
                 {navbarItems.map((item, index) => (
-                  <Link className="flex flex-col" href={item.link} key={index}>
+                  <Link
+                    className="flex flex-col  font-thunder text-[6vw] md:text-[6vw] lg:text-[3vw] text-[#EDD761] hover:text-[#F5F5F5]"
+                    href={item.link}
+                    key={index}
+                  >
                     {item.title}
                   </Link>
                 ))}

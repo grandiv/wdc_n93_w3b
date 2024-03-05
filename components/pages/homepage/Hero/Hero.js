@@ -23,11 +23,11 @@ function Hero() {
         YOGYAKARTA
       </motion.h1>
 
-      <div className="absolute bottom-[10vw] z-[3000] flex flex-col items-center justify-center scroll-smooth">
+      <div className="absolute bottom-[10vw] z-[1] flex flex-col items-center justify-center scroll-smooth">
         <div className="flex flex-col justify-center items-center">
           <h1
             className=" 
-          font-thunder text-2xl lg:text-[2.5vw] text-[#EDD761] z-[3000]"
+          font-thunder text-2xl lg:text-[2.5vw] text-[#EDD761] -z-[1]"
           >
             GULIR KE BAWAH
           </h1>
@@ -44,7 +44,7 @@ function Hero() {
       </div>
 
       <motion.div
-        className="absolute inset-0 z-0 bg-cover lg:w-[99.1vw]"
+        className="absolute z-0 bg-cover lg:w-[99.1vw] inset-0"
         style={{
           backgroundImage:
             "url(https://utfs.io/f/6a4008ed-ce6c-4c62-aa2f-99f616cac23b-1h.svg)",
@@ -53,7 +53,7 @@ function Hero() {
         }}
       />
       <motion.div
-        className="absolute z-[30] inset-0 hidden lg:block"
+        className="absolute z-[16]  hidden lg:block"
         style={{
           backgroundImage:
             "url(https://utfs.io/f/9db6ef63-7b41-485b-846b-c2389ba8ef82-1g.svg)",
@@ -64,7 +64,7 @@ function Hero() {
         }}
       />
       <motion.div
-        className="absolute z-[40] inset-0 bottom-0 hidden lg:block"
+        className="absolute z-[17]  bottom-0 hidden lg:block"
         style={{
           backgroundImage:
             "url(https://utfs.io/f/804d987d-b28a-4be4-9764-aeaa1069cd7b-1f.svg)",
@@ -75,7 +75,7 @@ function Hero() {
         }}
       />
       <motion.div
-        className="absolute z-[100] inset-0 bottom-0 hidden lg:block"
+        className="absolute z-[18]  bottom-0 hidden lg:block"
         style={{
           backgroundImage:
             "url(https://utfs.io/f/f5d67b22-600c-4d18-bc86-dbf9999c7c56-1e.svg)",
@@ -86,7 +86,7 @@ function Hero() {
         }}
       />
       <div
-        className="absolute z-[1000] inset-0 bottom-0 bg-gradient-to-b from-transparent to-[#1d1d21] hidden lg:block"
+        className="absolute z-[19]  bottom-0 bg-gradient-to-b from-transparent to-[#1d1d21] hidden lg:block"
         style={{
           backgroundImage:
             "url(https://utfs.io/f/56012633-070e-430a-be9a-161b6995bd53-1d.svg)",
@@ -95,7 +95,7 @@ function Hero() {
           backgroundSize: "100vw",
         }}
       >
-        <div className="absolute bottom-0 z-[2000] bg-gradient-to-b from-transparent to-[#1d1d21] w-full h-[5vw]"></div>
+        <div className="absolute bottom-0 z-[20] bg-gradient-to-b from-transparent to-[#1d1d21] w-full h-[5vw]"></div>
       </div>
     </div>
   );
