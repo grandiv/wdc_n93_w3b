@@ -24,7 +24,7 @@ export default function Hero() {
       data-aos-delay={getDelay({ turn: 0 })}>
       <div className="absolute bottom-0 z-[2000] bg-gradient-to-b from-transparent to-[#1d1d21] w-full h-[6vw]"></div>
       <h1
-        className="font-thunderbold text-[24.444vw] md:text-[21.875vw] lg:text-[15.104vw] text-[#7D7A64] z-[1000] leading-none"
+        className="font-thunderbold text-[24.444vw] md:text-[21.875vw] lg:text-[15.104vw] text-[#E1820A] z-[1000] leading-none"
         data-aos="fade-up"
         data-aos-duration={aosDuration}
         data-aos-delay={getDelay({ turn: 0 })}>
