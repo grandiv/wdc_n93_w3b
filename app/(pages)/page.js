@@ -7,11 +7,11 @@ import KotaKabupaten from "@/components/pages/homepage/KotaKabupaten/KotaKabupat
 
 export default function Home() {
   return (
-    <>
+    <div className="bg-[#1d1d21]">
       <Hero />
       <Deskripsi />
       <BudayaAlam />
       <KotaKabupaten />
-    </>
+    </div>
   );
 }

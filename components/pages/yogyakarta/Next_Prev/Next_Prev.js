@@ -26,8 +26,7 @@ export default function Next_Prev() {
         onMouseEnter={() => setHoveredButton("prev")}
         onMouseLeave={() => setHoveredButton(null)}
         aria-label="Previous"
-        onClick={handleClick}
-      >
+        onClick={handleClick}>
         <Image
           src={
             "https://utfs.io/f/003fe834-21b3-4b96-919a-d8f19c050336-rus808.svg"
@@ -43,8 +42,7 @@ export default function Next_Prev() {
         onMouseEnter={() => setHoveredButton("next")}
         onMouseLeave={() => setHoveredButton(null)}
         aria-label="Next"
-        onClick={handleClick2}
-      >
+        onClick={handleClick2}>
         <Image
           src={
             "https://utfs.io/f/6bbb9cb1-b4db-44cc-a3ec-70ddcce9f9df-71qslm.svg"
@@ -59,8 +57,7 @@ export default function Next_Prev() {
         className="flex flex-row justify-center items-start mb-[2vw] z-[99999]"
         data-aos="fade-up"
         data-aos-duration={aosDuration}
-        data-aos-delay={getDelay({ turn: 0 })}
-      >
+        data-aos-delay={getDelay({ turn: 0 })}>
         <div>
           <Image
             src="https://utfs.io/f/93478748-9dc5-4830-8035-4709009a5218-21xkj.svg"

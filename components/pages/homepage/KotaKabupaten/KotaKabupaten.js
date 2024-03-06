@@ -63,7 +63,8 @@ function KotaKabupaten() {
   };
 
   return (
-    <div className="relative flex items-center aspect-[360/700] flex-col lg:aspect-[1280/720] lg:items-start overflow-hidden">
+    <div className="relative flex items-center aspect-[360/700] flex-col lg:aspect-[1280/720] lg:items-start overflow-hidden bg-[#1d1d21]">
+      <div className="absolute top-0 z-[20] bg-gradient-to-b from-[#1d1d21] to-transparent w-full h-[5vw]"></div>
       <div className="vignette-desktop">
         <Image
           src="/img/homepage/kotakabupaten/bg-desktop.png"
@@ -127,8 +128,7 @@ function KotaKabupaten() {
         initialSlide={0}
         onSlideChange={(swiper) => {
           setActiveSlideId(DataKota[swiper.realIndex].id);
-        }}
-      >
+        }}>
         {DataKota.map((kotakab) => {
           return (
             <SwiperSlide key={kotakab}>
@@ -145,11 +145,10 @@ function KotaKabupaten() {
         })}
       </Swiper>
       {/* Tombol View More */}
-      <div className="relative bg-[white] w-[37vw] md:h-[6vh] md:w-[30vw] md:right-[24vw] sm:h-[6vh] sm:w-[30vw] sm:right-[24vw] h-[5vh] lg:right-[0vw] lg:bottom-[13vh] lg:w-[11vw] lg:left-[7vw] lg:h-[4vh] right-[19vw] rounded-md items-center 2xl:h-[15vh]">
+      <div className="relative h-fit w-fit pt-3 pb-2 px-[2px] lg:pt-2 lg:pb-4 lg:px-1 bg-[white] md:right-[24vw] sm:right-[24vw] lg:right-[0vw] lg:bottom-[13vh] lg:left-[7vw] right-[19vw] rounded-md">
         <button
           onClick={handleViewMore}
-          className="w-[37vw] 2xl:top-[0.5vh] 2xl:h-[5vh] lg:w-[11vw] lg:h-[4vh] sm:h-[6vh] sm:w-[30vw] md:h-[6vh] md:w-[30vw] h-[5vh] relative flex font-thundermedium lg:text-[1.5vw] text-[4.5vw] md:text-[3.5vw] text-[black] items-center"
-        >
+          className="w-[37vw] 2xl:top-[0.5vh] 2xl:h-[5vh] lg:w-[11vw] lg:h-[4vh] sm:h-[6vh] sm:w-[30vw] md:h-[6vh] md:w-[30vw] h-[5vh] relative flex font-thundermedium lg:text-[1.5vw] text-[4.5vw] md:text-[3.5vw] text-[black] items-center">
           <div className="2xl:top-[0vh] relative flex sm:left-[5vw] sm:top-[0.5vh] left-[25%] space-x-[5vw] lg:space-x-[2vw] lg:justify-center md:left-[25%] top-[0.1vh] lg:w-[11vw] lg:h-[4vh] lg:left-[0%] lg:top-[0vh] xl:h-[4.2vh] xl:mb-[0.5vh] 2xl:mb-[1.5vh]">
             <div className="2xl:h-[3vh] relative md:items-center lg:left-[10%] lg:top-[1vh] lg:h-[2.3vh]">
               LIHAT LEBIH

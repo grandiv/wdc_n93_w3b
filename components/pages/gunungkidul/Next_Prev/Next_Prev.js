@@ -21,12 +21,11 @@ export default function Next_Prev() {
   return (
     <div className="relative w-full items-center justify-end flex aspect-[360/320] md:aspect-[1252/557] bg-[#1d1d21] overflow-hidden flex-col z-[9999999999]">
       <button
-        className="absolute -left-[26vw] md:-left-[15vw] lg:-left-[20vw] -bottom-[18vw] md:-bottom-[18vw] lg:-bottom-[20vw] w-[90vw] md:w-[50vw] lg:w-[60.677vw] transition-transform duration-300 ease-in-out transform hover:-translate-y-[8vw] z-[99]"
+        className="absolute -left-[10vw] md:-left-[7vw] lg:-left-[3vw] -bottom-[18vw] md:-bottom-[18vw] lg:-bottom-[20vw] w-[90vw] md:w-[50vw] lg:w-[60.677vw] transition-transform duration-300 ease-in-out transform hover:-translate-y-[8vw] z-[99]"
         onMouseEnter={() => setHoveredButton("prev")}
         onMouseLeave={() => setHoveredButton(null)}
         aria-label="Previous"
-        onClick={handleClick}
-      >
+        onClick={handleClick}>
         <Image
           src={
             "https://utfs.io/f/a1553c02-e7a6-4ccd-945b-53534c2e03f0-59fxkp.svg"
@@ -38,12 +37,11 @@ export default function Next_Prev() {
         />
       </button>
       <button
-        className="absolute -right-[30vw] md:-right-[15vw] lg:-right-[20vw] -bottom-[18vw] md:-bottom-[18vw] lg:-bottom-[20vw] w-[90vw] md:w-[50vw] lg:w-[60.677vw] z-[1] transition-transform duration-300 ease-in-out transform hover:-translate-y-[8vw]"
+        className="absolute -right-[10vw] md:-right-[7vw] lg:-right-[3vw] -bottom-[18vw] md:-bottom-[18vw] lg:-bottom-[20vw] w-[90vw] md:w-[50vw] lg:w-[60.677vw] z-[1] transition-transform duration-300 ease-in-out transform hover:-translate-y-[8vw]"
         onMouseEnter={() => setHoveredButton("next")}
         onMouseLeave={() => setHoveredButton(null)}
         aria-label="Next"
-        onClick={handleClick2}
-      >
+        onClick={handleClick2}>
         <Image
           src={
             "https://utfs.io/f/5c370c34-d494-475a-a370-7fe5e2dda8e9-hcfbl4.svg"
@@ -58,8 +56,7 @@ export default function Next_Prev() {
         className="flex flex-row justify-center items-start mb-[2vw] z-[99999]"
         data-aos="fade-up"
         data-aos-duration={aosDuration}
-        data-aos-delay={getDelay({ turn: 0 })}
-      >
+        data-aos-delay={getDelay({ turn: 0 })}>
         <div>
           <Image
             src={
