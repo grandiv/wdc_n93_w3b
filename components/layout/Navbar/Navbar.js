@@ -32,7 +32,7 @@ export function Navbar() {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   return (
-    <div className="flex items-center justify-between border-b border-gray-400 py-8 mr-[2vw] ml-[2vw] z-[1009]">
+    <div className="flex sticky top-0 items-center justify-between border-b border-gray-400 py-8 mr-[2vw] ml-[2vw] z-[1009]">
       <Link href="/">
         <Image
           src={
@@ -45,17 +45,19 @@ export function Navbar() {
         />
       </Link>
       <nav>
-        <section className="MOBILE-MENU flex inset-0">
+        <section className="flex inset-0">
           <div
-            className="HAMBURGER-ICON space-y-2"
-            onClick={() => setIsNavOpen((prev) => !prev)}>
+            className="space-y-2"
+            onClick={() => setIsNavOpen((prev) => !prev)}
+          >
             <FaBars className="z-[999999999999999999] text-[#EDD761] text-[6vw] md:text-[4vw] lg:text-[2vw] hover:cursor-pointer" />
           </div>
 
           <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
             <div
               className="absolute top-0 right-0 px-8 py-8 hover:cursor-pointer hover:bg-white rounded-full"
-              onClick={() => setIsNavOpen((prev) => !prev)}>
+              onClick={() => setIsNavOpen((prev) => !prev)}
+            >
               <svg
                 className="h-8 w-8 text-gray-600"
                 viewBox="0 0 24 24"
@@ -63,7 +65,8 @@ export function Navbar() {
                 stroke="currentColor"
                 strokeWidth="2"
                 strokeLinecap="round"
-                strokeLinejoin="round">
+                strokeLinejoin="round"
+              >
                 <line x1="18" y1="6" x2="6" y2="18" />
                 <line x1="6" y1="6" x2="18" y2="18" />
               </svg>
@@ -75,7 +78,8 @@ export function Navbar() {
                   setTimeout(() => {
                     setIsNavOpen((prev) => !prev);
                   }, 300);
-                }}>
+                }}
+              >
                 <Link href="/">Beranda</Link>
               </div>
               <div className="border-gray-400 space-y-[2vw] lg:space-y-0 uppercase flex flex-col items-center">
@@ -86,13 +90,15 @@ export function Navbar() {
                   <Link
                     className="font-thunder text-[24px] lg:text-[32px] text-[#EDD761] hover:text-[#F5F5F5]"
                     href={item.link}
-                    key={index}>
+                    key={index}
+                  >
                     <span
                       onClick={() => {
                         setTimeout(() => {
                           setIsNavOpen((prev) => !prev);
                         }, 300);
-                      }}>
+                      }}
+                    >
                       {item.title}
                     </span>
                   </Link>
@@ -101,18 +107,6 @@ export function Navbar() {
             </div>
           </div>
         </section>
-
-        <ul className="DESKTOP-MENU hidden space-x-8 lg:hidden">
-          <li>
-            <a href="/about">About</a>
-          </li>
-          <li>
-            <a href="/portfolio">Portfolio</a>
-          </li>
-          <li>
-            <a href="/contact">Contact</a>
-          </li>
-        </ul>
       </nav>
       <style>{`
       .hideMenuNav {
