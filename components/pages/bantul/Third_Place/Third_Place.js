@@ -14,11 +14,11 @@ export default function Third_Place() {
       <div
         className="relative h-[120vw] md:h-[50vw] lg:h-[47.948vw] w-full bg-[url('https://utfs.io/f/bbc9c487-8417-402d-9bd5-c5969cc9f098-1z44d.svg')] md:bg-[url('https://utfs.io/f/3e09e7be-3020-4202-b5e7-a4ac7e84645b-1z44e.svg')] lg:bg-[url('https://utfs.io/f/b745457d-28f7-4692-9aa7-24b3f50c969d-1z44f.svg')] rounded-t-[8.889vw] md:rounded-t-[4.167vw] lg:rounded-t-[3.75vw] bg-cover flex justify-center md:justify-end lg:bg-bottom"
         data-aos="fade-up"
-        data-aos-duration={aosDuration}
+        data-aos-duration={aosDurations}
         data-aos-delay={getDelay({ turn: 0 })}
       >
         <div className="absolute bottom-0 z-[0] bg-gradient-to-b from-transparent to-[#1d1d21] w-full h-[5vw]"></div>
-        <h1 className=" font-thunderboldLC text-[13.889vw] md:text-[6.51vw] text-[#7D7A64] leading-none mt-[10vw] md:mt-[5vw] md:mr-[5vw] lg:mt-[3vw] lg:mr-[3vw]">
+        <h1 className=" font-thunderboldLC text-[13.889vw] md:text-[6.51vw] text-[#D27F99] leading-none mt-[10vw] md:mt-[5vw] md:mr-[5vw] lg:mt-[3vw] lg:mr-[3vw]">
           LEMBAH OYA
         </h1>
       </div>
