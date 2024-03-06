@@ -48,16 +48,14 @@ export function Navbar() {
         <section className="MOBILE-MENU flex inset-0">
           <div
             className="HAMBURGER-ICON space-y-2"
-            onClick={() => setIsNavOpen((prev) => !prev)}
-          >
-            <FaBars className="z-[999999999999999999] text-[#EDD761] text-[6vw] md:text-[4vw] lg:text-[2vw]" />
+            onClick={() => setIsNavOpen((prev) => !prev)}>
+            <FaBars className="z-[999999999999999999] text-[#EDD761] text-[6vw] md:text-[4vw] lg:text-[2vw] hover:cursor-pointer" />
           </div>
 
           <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
             <div
-              className="absolute top-0 right-0 px-8 py-8"
-              onClick={() => setIsNavOpen(false)}
-            >
+              className="absolute top-0 right-0 px-8 py-8 hover:cursor-pointer hover:bg-white rounded-full"
+              onClick={() => setIsNavOpen((prev) => !prev)}>
               <svg
                 className="h-8 w-8 text-gray-600"
                 viewBox="0 0 24 24"
@@ -65,27 +63,38 @@ export function Navbar() {
                 stroke="currentColor"
                 strokeWidth="2"
                 strokeLinecap="round"
-                strokeLinejoin="round"
-              >
+                strokeLinejoin="round">
                 <line x1="18" y1="6" x2="6" y2="18" />
                 <line x1="6" y1="6" x2="18" y2="18" />
               </svg>
             </div>
-            <div className="flex flex-col lg:flex-bar text-[white] space-y-[2vw] md:space-y-[1vw] z-[9999999999999999] h-[500vh]">
-              <div className="mt-[15vw] md:mt-[5vw] text-[6vw] md:text-[6vw] font-thunder border-gray-400 uppercase">
+            <div className="flex flex-col lg:flex-bar text-[white] gap-y-1 z-[9999999999999999] h-[500vh]">
+              <div
+                className="text-center tracking-wide mt-[15vw] md:mt-[5vw] text-[32px] lg:text-[64px] font-thunderbold border-gray-400 uppercase hover:text-[#EDD761]"
+                onClick={() => {
+                  setTimeout(() => {
+                    setIsNavOpen((prev) => !prev);
+                  }, 300);
+                }}>
                 <Link href="/">Beranda</Link>
               </div>
-              <div className="text-[15vw] md:text-[8vw] min-lg:text-[20px] font-thunderbold border-gray-400 my-8 uppercase">
-                Kabupaten
-              </div>
-              <div className="border-gray-400 space-y-[2vw] lg:space-x-[1vw] lg:space-y-0 uppercase flex flex-col lg:flex-row">
+              <div className="border-gray-400 space-y-[2vw] lg:space-y-0 uppercase flex flex-col items-center">
+                <div className="text-[32px] tracking-wide lg:text-[64px] font-thunderbold border-gray-400 mt-8 uppercase">
+                  Kabupaten
+                </div>
                 {navbarItems.map((item, index) => (
                   <Link
-                    className="flex flex-col  font-thunder text-[6vw] md:text-[6vw] lg:text-[3vw] text-[#EDD761] hover:text-[#F5F5F5]"
+                    className="font-thunder text-[24px] lg:text-[32px] text-[#EDD761] hover:text-[#F5F5F5]"
                     href={item.link}
-                    key={index}
-                  >
-                    {item.title}
+                    key={index}>
+                    <span
+                      onClick={() => {
+                        setTimeout(() => {
+                          setIsNavOpen((prev) => !prev);
+                        }, 300);
+                      }}>
+                      {item.title}
+                    </span>
                   </Link>
                 ))}
               </div>

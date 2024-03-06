@@ -9,17 +9,16 @@ function Hero() {
     offset: ["start start", "end start"],
   });
   const backgroundY = useTransform(scrollYProgress, [0, 1], ["0%", "200%"]);
-  const background1Y = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
-  const background2Y = useTransform(scrollYProgress, [0, 1], ["0%", "65%"]);
-  const background3Y = useTransform(scrollYProgress, [0, 1], ["0%", "40%"]);
+  // const background1Y = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
+  // const background2Y = useTransform(scrollYProgress, [0, 1], ["0%", "65%"]);
+  // const background3Y = useTransform(scrollYProgress, [0, 1], ["0%", "40%"]);
   const textY = useTransform(scrollYProgress, [0, 1], ["0%", "200%"]);
   return (
     <div className="w-full relative h-screen overflow-hidden grid place-items-center">
       <motion.h1
         style={{ y: textY }}
         className=" 
-      font-thunderbold text-[76px] lg:text-[15.104vw] text-[#EDD761] z-[8] absolute lg:top-[5vw] top-52 scroll-smooth"
-      >
+      font-thunderbold text-[76px] lg:text-[15.104vw] text-[#EDD761] z-[8] absolute lg:top-[10vw] top-52 scroll-smooth">
         YOGYAKARTA
       </motion.h1>
 
@@ -27,8 +26,7 @@ function Hero() {
         <div className="flex flex-col justify-center items-center">
           <h1
             className=" 
-          font-thunder text-2xl lg:text-[2.5vw] text-[#EDD761] -z-[1]"
-          >
+          font-thunder text-2xl lg:text-[2.5vw] text-[#EDD761] -z-[1]">
             GULIR KE BAWAH
           </h1>
           <Image
@@ -38,8 +36,7 @@ function Hero() {
             width={3}
             height={3}
             alt="Picture of the author"
-            className="flex justify-center w-8 lg:w-[3vw]"
-          ></Image>
+            className="flex justify-center w-8 lg:w-[3vw]"></Image>
         </div>
       </div>
 
@@ -52,7 +49,7 @@ function Hero() {
           y: backgroundY,
         }}
       />
-      <motion.div
+      {/* <motion.div
         className="absolute z-[16]  hidden lg:block"
         style={{
           backgroundImage:
@@ -84,7 +81,7 @@ function Hero() {
           backgroundRepeat: "no-repeat",
           y: background3Y,
         }}
-      />
+      /> */}
       <div
         className="absolute z-[19]  bottom-0 bg-gradient-to-b from-transparent to-[#1d1d21] hidden lg:block"
         style={{
@@ -93,10 +90,8 @@ function Hero() {
           backgroundPosition: "bottom",
           backgroundRepeat: "no-repeat",
           backgroundSize: "100vw",
-        }}
-      >
-        <div className="absolute bottom-0 z-[20] bg-gradient-to-b from-transparent to-[#1d1d21] w-full h-[5vw]"></div>
-      </div>
+        }}></div>
+      <div className="absolute bottom-0 z-[20] bg-gradient-to-b from-transparent to-[#1d1d21] w-full h-[5vw]"></div>
     </div>
   );
 }
