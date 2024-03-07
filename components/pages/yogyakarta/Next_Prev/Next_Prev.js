@@ -20,7 +20,7 @@ export default function Next_Prev() {
   const [hoveredButton, setHoveredButton] = useState(null);
 
   return (
-    <div className="relative w-full items-center justify-end flex aspect-[360/320] md:aspect-[1252/557] bg-[#1d1d21] overflow-hidden flex-col z-[9999999999]">
+    <div className="relative w-full items-center justify-end flex aspect-[360/320] md:aspect-[1252/557] bg-[#1d1d21] overflow-hidden flex-col z-[999]">
       <button
         className="absolute -left-[26vw] md:-left-[15vw] lg:-left-[20vw] -bottom-[18vw] md:-bottom-[18vw] lg:-bottom-[20vw] w-[90vw] md:w-[50vw] lg:w-[60.677vw] transition-transform duration-300 ease-in-out transform hover:-translate-y-[8vw] z-[99]"
         onMouseEnter={() => setHoveredButton("prev")}

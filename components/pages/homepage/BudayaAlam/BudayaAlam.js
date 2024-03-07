@@ -7,7 +7,7 @@ function BudayaAlam() {
       <div className="absolute top-0 z-[20] bg-gradient-to-b from-[#1d1d21] to-transparent w-full h-[5vw]"></div>
       <div className="relative h-full flex items-start flex-col overflow-hidden">
         {/* Budaya */}
-        <div className="absolute max-h-[190vw] md:-translate-x-[30vw] w-[400vw] flex flex-col lg:-translate-x-[11vw]">
+        <div className="absolute max-h-[190vw] md:-translate-x-[30vw] w-[400vw] flex flex-col lg:-translate-x-[11vw] bg-[#1d1d21] pt-32">
           {/* Bg Platform */}
           <Image
             src={
@@ -39,13 +39,13 @@ function BudayaAlam() {
             className="rotate-2 z-20 w-[90vw] md:w-[70vw] translate-x-[15vw] md:rotate-2 md:translate-x-[35vw] md:-translate-y-[147vw] -translate-y-[195vw] lg:w-[60vw] lg:-translate-y-[115vw] lg:translate-x-[20vw] lg:rotate-2"
           />
           {/* Deskripsi */}
-          <p className="text-[1.7vw] translate-x-[50vw] -translate-y-[265vw] text-center skew-y-[30deg] z-30 w-[50vw] md:-translate-y-[195vw] md:translate-x-[70vw] lg:-translate-y-[158vw] lg:translate-x-[45vw] lg:text-[1.6vw]">
+          <p className="font-thundermedium tracking-widest md:tracking-wide text-[1.9vw] translate-x-[50vw] -translate-y-[272vw] text-center skew-y-[30deg] z-30 w-[50vw] md:-translate-y-[202vw] md:translate-x-[70vw] lg:-translate-y-[165vw] lg:translate-x-[45vw] lg:text-[1.8vw] pb-10">
             Temukan kekayaan warisan budaya yang memikat di Daerah Istimewa
             Yogyakarta. Nikmati keindahan dan kearifan lokal yang tak ternilai
             dalam setiap langkah Anda di kota ini.
           </p>
           {/* Efek Cahaya */}
-          <Image
+          {/* <Image
             src={
               "https://utfs.io/f/84c2bbb7-f23a-4c18-be1d-ceb5f8b3ed09-gb3n52.svg"
             }
@@ -89,7 +89,7 @@ function BudayaAlam() {
             width={100}
             height={100}
             className="z-1 w-[50vw] md:hidden translate-x-[45vw] -translate-y-[590vw]"
-          />
+          /> */}
         </div>
         {/* Alam */}
         <div className="absolute max-h-[190vw] md:-translate-x-[30vw] w-[400vw] flex flex-col lg:-translate-x-[20vw]">
@@ -124,7 +124,7 @@ function BudayaAlam() {
             className="z-20 w-[90vw] md:rotate-2 md:w-[70vw] md:translate-x-[28vw] md:-translate-y-[77vw] -translate-y-[105vw] rotate-2 -translate-x-[20vw] lg:w-[60vw] lg:-translate-y-[69vw] lg:translate-x-[15vw]"
           />
           {/* Deskripsi */}
-          <p className="text-[1.7vw] translate-x-[50vw] -translate-y-[175vw] text-center skew-y-[30deg] z-30 w-[50vw] md:translate-x-[80vw] md:-translate-y-[133vw] lg:-translate-y-[115vw] lg:translate-x-[58vw] lg:text-[1.6vw]">
+          <p className="font-thundermedium tracking-widest md:tracking-wide text-[1.9vw] translate-x-[50vw] -translate-y-[179vw] text-center skew-y-[30deg] z-30 w-[50vw] md:translate-x-[80vw] md:-translate-y-[135vw] lg:-translate-y-[114vw] lg:translate-x-[58vw] lg:text-[1.8vw] pb-10">
             Telusuri kecantikan alam yang memukau, dari pantai berpasir putih
             hingga lereng gunung yang hijau. Rasakan kedamaian alam dan kagumi
             keindahan alam yang menakjubkan yang menjadi ciri khas Yogyakarta.
