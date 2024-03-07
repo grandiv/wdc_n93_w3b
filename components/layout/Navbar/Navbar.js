@@ -32,7 +32,7 @@ export function Navbar() {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   return (
-    <div className="flex sticky top-0 items-center justify-between border-b border-gray-400 py-8 mr-[2vw] ml-[2vw] z-[1009]">
+    <div className="flex sticky top-0 items-center justify-between py-8 mr-[2vw] ml-[2vw] z-[999999999999999999999999]">
       <Link href="/">
         <Image
           src={

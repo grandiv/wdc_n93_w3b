@@ -148,7 +148,7 @@ export default function Second_Place() {
                     width={1}
                     height={1}
                     alt="Picture of the author"
-                    className="w-[60vw] md:hidden"
+                    className="w-[80vw] md:hidden"
                   />
                   <Image
                     src={
@@ -157,7 +157,7 @@ export default function Second_Place() {
                     width={1}
                     height={1}
                     alt="Picture of the author"
-                    className="w-[80vw] hidden md:block"
+                    className="md:w-[90vw] w-[80vw] hidden md:block"
                   />
                 </div>
               </div>
